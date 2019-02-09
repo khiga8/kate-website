@@ -12,11 +12,12 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.0.116",
-    "gatsby-plugin-sass": "^2.0.10",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "gatsby": "2.0.116",
+    "gatsby-cli": "^2.4.9",
+    "gatsby-plugin-sass": "2.0.10",
+    "node-sass": "4.11.0",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
   },
   "repository": {
     "type": "git",

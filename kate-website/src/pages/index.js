@@ -47,14 +47,14 @@ export default () => (
         <h2>{positions}</h2>
         <p className="intro">
           Hello! I&apos;m a software developer who loves to create visual
-          experiences with code. I have experience in various areas of software
-          development. &nbsp;
+          experiences with code. I have experience working in various areas of
+          software development. &nbsp;
           <a target="_blank" href="./resources/kate-resume.pdf">
             Here is my resume.
           </a>
           &nbsp; <br />
           <br />
-          My current interests are in&nbsp;
+          My current interests lie in&nbsp;
           <span className="emphasis">front-end & web app development.</span> My
           desire to contribute to&nbsp;
           <span className="emphasis">
