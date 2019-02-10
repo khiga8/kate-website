@@ -26,6 +26,7 @@ $hair-color: #474747;
   position: relative;
   margin: 0;
   padding: 0;
+  background: #fffdd0;
   border: 4px solid darken(#c4dfe6, 15%);
   @include horizontallyCenter();
   height: 200px;

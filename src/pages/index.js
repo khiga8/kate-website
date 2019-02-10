@@ -68,7 +68,8 @@ export default () => (
         <h3>{positions}</h3>
         <p className="intro">
           Hello! I&apos;m a software developer who loves to create visual
-          experiences with code.&nbsp;
+          experiences with code. I have experience in various areas of software
+          dev. &nbsp;
           <a
             className="text-link"
             target="_blank"
@@ -78,9 +79,8 @@ export default () => (
           </a>
           &nbsp; <br />
           <br />
-          Currently, my interests lie in&nbsp;
-          <span className="emphasis">front-end & web development</span>,
-          particularly in building responsive, well-designed interfaces. My
+          Currently, my interests are in&nbsp;
+          <span className="emphasis">front-end & web development</span>. My
           desire to contribute to&nbsp;
           <span className="emphasis">
             mission-driven & purposeful technology
@@ -93,6 +93,15 @@ export default () => (
             <span className="email"> katehiga8@gmail.com </span>!
           </p>
           <ul>
+            <li>
+              <a
+                className="text-link"
+                target="_blank"
+                href="https://www.linkedin.com/in/kate-higa-2bab87108"
+              >
+                Linkedin
+              </a>
+            </li>
             <li>
               <a
                 className="text-link"
@@ -111,15 +120,7 @@ export default () => (
                 Github
               </a>
             </li>
-            <li>
-              <a
-                className="text-link"
-                target="_blank"
-                href="https://www.linkedin.com/in/kate-higa-2bab87108"
-              >
-                Linkedin
-              </a>
-            </li>
+
             <li>
               <a
                 className="text-link"
@@ -136,9 +137,9 @@ export default () => (
     <section className="project-section">
       <h2> Mini Code Challenges</h2>
       <p className="caption">
-        This year I am going back to the fundamentals :) <br /> Let&apos;s have
-        fun creating while unleashing the power of basic HTML/CSS/JS...Maybe
-        bits of React along the way!
+        This year, I am challenging myself to understand and unleash the power
+        of fundamental HTML/CSS/JS with mini creations.
+        <br /> (Disclaimer: There may be bits of React along the way)
       </p>
       <Gallery imageMap={imageGallery} rowNum={2} />
     </section>
