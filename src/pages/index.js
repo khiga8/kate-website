@@ -8,8 +8,6 @@ import clock from "./portfolio/clock.png";
 import menu from "./portfolio/menu.png";
 import pug from "./portfolio/pug.png";
 import todo from "./portfolio/todo.png";
-import favicon from "./favicon.ico";
-import Helmet from "react-helmet";
 
 const name = "Kate Higa";
 const positions = "UI Developer @IBM | Grad of Cog Sci/CS @UC Berkeley";
