@@ -5,28 +5,28 @@ export class Me extends React.Component {
     return (
       <div className="code-me">
         <div className="heart"> ♥ </div>
-        <div class="girl">
-          <div class="hair" />
-          <div class="bangs">
-            <div class="bang one" />
-            <div class="bang two" />
-            <div class="bang three" />
-            <div class="bang four" />
-            <div class="bang five" />
+        <div className="girl">
+          <div className="hair" />
+          <div className="bangs">
+            <div className="bang one" />
+            <div className="bang two" />
+            <div className="bang three" />
+            <div className="bang four" />
+            <div className="bang five" />
           </div>
-          <div class="face">
-            <div class="mouth" />
-            <div class="eyebrows">
-              <div class="eyebrow left" />
-              <div class="eyebrow right" />
+          <div className="face">
+            <div className="mouth" />
+            <div className="eyebrows">
+              <div className="eyebrow left" />
+              <div className="eyebrow right" />
             </div>
-            <div class="eyes">
-              <div class="eye left" />
-              <div class="eye right" />
+            <div className="eyes">
+              <div className="eye left" />
+              <div className="eye right" />
             </div>
-            <div class="cheeks">
-              <div class="cheek left" />
-              <div class="cheek right" />
+            <div className="cheeks">
+              <div className="cheek left" />
+              <div className="cheek right" />
             </div>
           </div>
         </div>

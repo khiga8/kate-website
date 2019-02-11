@@ -1,5 +1,6 @@
 import React from "react";
 import { ImageCard } from "./ImageCard.js";
+
 export class Gallery extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +13,7 @@ export class Gallery extends React.Component {
     for (let i = 0; i < imageGallery.length; i++) {
       const container = (
         <ImageCard
+          key={Math.random()}
           img={this.props.imageMap[i][0]}
           text={this.props.imageMap[i][1]}
           link={this.props.imageMap[i][2]}
@@ -19,7 +21,11 @@ export class Gallery extends React.Component {
       );
       col.push(container);
       if (col.length === rowNum || i === imageGallery.length - 1) {
-        gallery.push(<div className="column"> {col} </div>);
+        gallery.push(
+          <div key={Math.random()} className="column">
+            {col}
+          </div>
+        );
         col = [];
       }
     }
