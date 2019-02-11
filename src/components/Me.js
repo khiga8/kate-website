@@ -30,6 +30,7 @@ export class Me extends React.Component {
             </div>
           </div>
         </div>
+        <div className="css"> Kate (in CSS form) </div>
       </div>
     );
   }

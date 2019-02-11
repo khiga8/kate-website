@@ -54,7 +54,7 @@ h3,
   justify-content: center;
   min-height: 100%;
   margin: 5% 0% 10% 10%;
-  line-height: 1.1em;
+  line-height: 1.3em;
 }
 .project-gallery {
   margin-top: 50px;
@@ -85,8 +85,8 @@ a.text-link {
 }
 a.text-link:hover {
   padding: 3px 5px;
-  background: #66a5ad;
-  color: white;
+  border-bottom: 2px solid #66a5ad;
+  color: black;
 }
 ul li {
   float: left;

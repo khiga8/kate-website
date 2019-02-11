@@ -54,14 +54,15 @@ const HomePage = () => {
             experiences! I come from an interdisciplinary background, having
             focused on both Cognitive Science and Computer Science during my
             undergrad. I have experience working in a few different areas of
-            software dev including security software dev and iOS app dev. &nbsp;
+            software development including security software dev and iOS app
+            dev. &nbsp;
             <a className="text-link" target="_blank" href={Resume}>
               Here&apos;s my resume.
             </a>
             &nbsp; <br />
             <br />
             My current passion lies in&nbsp;
-            <span className="emphasis">front-end & web development</span>. I
+            <span className="emphasis">front-end & web development.</span> I
             love seeing code on the screen transform into something beautiful
             and interactive. My strong desire to contribute to&nbsp;
             <span className="emphasis">
@@ -120,7 +121,15 @@ const HomePage = () => {
         <h2> Mini Code Challenges</h2>
         <p className="caption">
           This year, I have been challenging myself to unleash the power of
-          fundamental HTML/CSS/JS (& sometimes React) with mini creations :D
+          fundamental HTML/CSS/JS (& sometimes React) with mini projects. You
+          can follow my work on
+          <a
+            className="text-link"
+            target="_blank"
+            href="https://codepen.io/khiga8/"
+          >
+            Codepen.
+          </a>
           <br />
         </p>
         <Gallery imageMap={imageGallery} rowNum={2} />
