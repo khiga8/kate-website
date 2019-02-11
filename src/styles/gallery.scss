@@ -4,14 +4,14 @@ $margin-top: 15px;
   flex-wrap: wrap;
 }
 .container {
-  margin-top: 5px;
+  margin-top: 1em;
   position: relative;
   overflow: hidden;
   img:hover {
     cursor: pointer;
   }
   span {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
 
@@ -27,6 +27,7 @@ a.gallery-link {
 .column img {
   vertical-align: middle;
   width: 100%;
+  margin-bottom: 0.7em;
 }
 .column img:hover {
   opacity: 0.8;

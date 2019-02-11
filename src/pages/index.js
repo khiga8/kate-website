@@ -8,9 +8,11 @@ import clock from "./portfolio/clock.png";
 import menu from "./portfolio/menu.png";
 import pug from "./portfolio/pug.png";
 import todo from "./portfolio/todo.png";
+import favicon from "./favicon.ico";
+import Helmet from "react-helmet";
 
 const name = "Kate Higa";
-const positions = "UI Developer @IBM | Recent Grad of Cog Sci/CS @UC Berkeley";
+const positions = "UI Developer @IBM | Grad of Cog Sci/CS @UC Berkeley";
 const codedMe = true;
 const imageGallery = [
   [
@@ -116,8 +118,8 @@ const HomePage = () => {
       <section className="project-section">
         <h2> Mini Code Challenges</h2>
         <p className="caption">
-          This year, I am challenging myself to unleash the power of fundamental
-          HTML/CSS/JS (& sometimes React) with mini creations :D
+          This year, I have been challenging myself to unleash the power of
+          fundamental HTML/CSS/JS (& sometimes React) with mini creations :D
           <br />
         </p>
         <Gallery imageMap={imageGallery} rowNum={2} />
