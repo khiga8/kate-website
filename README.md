@@ -1,7 +1,7 @@
 <p align="center">
 </p>
 <h1 align="center">
-  Kate Higa
+  katehiga.com
 </h1>
 <p> 
   Hello, this is a personal portfolio website that I built with the following: 
