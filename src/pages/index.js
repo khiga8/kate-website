@@ -64,7 +64,7 @@ const HomePage = () => {
             <span className="emphasis">
               mission-driven & purposeful technology
             </span>
-            &nbsp;motivates me to continue learning and growingin this field.
+            &nbsp;motivates me to continue learning and growing in this field.
           </p>
           <div className="links">
             <p className="contact">
