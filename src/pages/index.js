@@ -50,17 +50,20 @@ const HomePage = () => {
           <h1>{name}</h1>
           <h3>{positions}</h3>
           <p className="intro">
-            Hi! I&apos;m a software developer who enjoys coding visual
-            experiences. I have worked in various areas within software
-            development.&nbsp;
+            Hello! I&apos;m a software developer who enjoys coding visual
+            experiences! I come from an interdisciplinary background, having
+            focused on both Cognitive Science and Computer Science during my
+            undergrad. I have experience working in a few different areas of
+            software dev including security software dev and iOS app dev. &nbsp;
             <a className="text-link" target="_blank" href={Resume}>
               Here&apos;s my resume.
             </a>
             &nbsp; <br />
             <br />
-            My current interests are in&nbsp;
-            <span className="emphasis">front-end & web development</span>. My
-            desire to contribute to&nbsp;
+            My current passion lies in&nbsp;
+            <span className="emphasis">front-end & web development</span>. I
+            love seeing code on the screen transform into something beautiful
+            and interactive. My strong desire to contribute to&nbsp;
             <span className="emphasis">
               mission-driven & purposeful technology
             </span>
