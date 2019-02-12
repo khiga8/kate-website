@@ -8,6 +8,8 @@ import clock from "./portfolio/clock.png";
 import menu from "./portfolio/menu.png";
 import pug from "./portfolio/pug.png";
 import todo from "./portfolio/todo.png";
+import { Helmet } from "react-helmet";
+import favicon from "./favicon.png";
 
 const name = "Kate Higa";
 const positions = "UI Developer @IBM | Grad of Cog Sci/CS @UC Berkeley";
@@ -44,6 +46,11 @@ if (codedMe === true) {
 const HomePage = () => {
   return (
     <div className="main">
+      <Helmet>
+        <title>Kate</title>
+        <meta name="description" content="Kate" />
+        <link rel="icon" type="/image/png" href={favicon} />
+      </Helmet>
       {portrait}
       <section className="intro-section">
         <div className="content">
