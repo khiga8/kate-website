@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC");
 
+$border-bottom: #00cffa;
 html,
 body {
   padding: 0;
@@ -85,12 +86,12 @@ a.text-link {
   color: black;
   text-decoration: none;
   padding: 3px 5px;
-  border-bottom: 2px solid lighten(#66a5ad, 30%);
+  border-bottom: 2px solid lighten($border-bottom, 30%);
   background: 0;
 }
 a.text-link:hover {
   padding: 3px 5px;
-  border-bottom: 2px solid #66a5ad;
+  border-bottom: 2px solid $border-bottom;
   color: black;
 }
 ul li {

@@ -99,7 +99,7 @@ const HomePage = () => {
           <p className="intro">
             I&apos;m a software developer who loves to code visual experiences.
             I studied Cognitive Science and Computer Science at UC Berkeley, and
-            like to understand and intersect multiple perspectives.&nbsp;
+            like to understand and intersect different perspectives .&nbsp;
             <a className="text-link" target="_blank" href={Resume}>
               Here&apos;s my resume.
             </a>
