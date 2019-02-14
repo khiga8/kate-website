@@ -49,10 +49,12 @@ const HomePage = () => {
       </Helmet>
       <section className="intro-section">
         <div className="content">
-          <h1>
-            Hi, I'm Kate Higa. <br />
-          </h1>
-          <h2> Currently a UI developer @IBM.</h2>
+          <div className="intro-text">
+            <h1>
+              Hi, I'm Kate Higa. <br />
+            </h1>
+            <h2> Currently a UI developer @IBM.</h2>
+          </div>
           <div className="links">
             <ul>
               <li>
@@ -97,8 +99,7 @@ const HomePage = () => {
           <p className="intro">
             I&apos;m a software developer who loves to code visual experiences.
             I studied Cognitive Science and Computer Science at UC Berkeley, and
-            like to understand and intersect different perspectives. I have
-            worked in a few different areas of software development. &nbsp;
+            like to understand and intersect multiple perspectives.&nbsp;
             <a className="text-link" target="_blank" href={Resume}>
               Here&apos;s my resume.
             </a>
@@ -109,7 +110,7 @@ const HomePage = () => {
               front-end & web app development.
             </span>{" "}
             It excites me to see code transform into something beautiful and
-            interactive. My desire to create to&nbsp;
+            interactive! My desire to create to&nbsp;
             <span className="emphasis">purposeful technology</span>
             &nbsp;pushes me to keep learning. When I'm not coding or studying
             JS, you might find me
