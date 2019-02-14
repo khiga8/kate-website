@@ -1,6 +1,5 @@
 import React from "react";
 import { Gallery } from "../components/Gallery.js";
-import { Me } from "../components/Me.js";
 import Resume from "../data/kate-resume.pdf";
 import chatbot from "./portfolio/chatbot.png";
 import boba from "./portfolio/boba.png";
@@ -10,10 +9,9 @@ import pug from "./portfolio/pug.png";
 import todo from "./portfolio/todo.png";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
+import portrait from "./portfolio/portrait.png";
+import { Link } from "gatsby";
 
-const name = "Kate Higa";
-const positions = "UI Developer @IBM | Grad of Cog Sci/CS @UC Berkeley";
-const codedMe = true;
 const imageGallery = [
   [
     clock,
@@ -34,14 +32,12 @@ const imageGallery = [
   [pug, "pug | pure css illustration", "https://codepen.io/khiga8/pen/NeLvqX"],
   [todo, "goals list | React/js", "https://codepen.io/khiga8/pen/pGNgjV"]
 ];
-let portrait;
-if (codedMe === true) {
-  portrait = (
-    <div className="portrait">
-      <Me />
-    </div>
-  );
-}
+
+const self = (
+  <div className="portrait">
+    <img src={portrait} />
+  </div>
+);
 
 const HomePage = () => {
   return (
@@ -51,37 +47,13 @@ const HomePage = () => {
         <meta name="description" content="Kate" />
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
-      {portrait}
       <section className="intro-section">
         <div className="content">
-          <h1>{name}</h1>
-          <h3>{positions}</h3>
-          <p className="intro">
-            Hello! I&apos;m a software developer who enjoys coding visual
-            experiences! I come from an interdisciplinary background, having
-            focused on both Cognitive Science and Computer Science during my
-            undergrad. I have experience working in a few different areas of
-            software development including security software dev and iOS app
-            dev. &nbsp;
-            <a className="text-link" target="_blank" href={Resume}>
-              Here&apos;s my resume.
-            </a>
-            &nbsp; <br />
-            <br />
-            My current passion lies in&nbsp;
-            <span className="emphasis">front-end & web development.</span> I
-            love seeing code on the screen transform into something beautiful
-            and interactive. My strong desire to contribute to&nbsp;
-            <span className="emphasis">
-              mission-driven & purposeful technology
-            </span>
-            &nbsp;motivates me to continue learning and growing in this field.
-          </p>
+          <h1>
+            Hi, I'm Kate Higa. <br />
+          </h1>
+          <h2> Currently a UI developer @IBM.</h2>
           <div className="links">
-            <p className="contact">
-              Feel free to shoot me an email at
-              <span className="email"> katehiga8@gmail.com</span>!
-            </p>
             <ul>
               <li>
                 <a
@@ -122,6 +94,39 @@ const HomePage = () => {
               </li>
             </ul>
           </div>
+          <p className="intro">
+            I&apos;m a software developer who loves to code visual experiences.
+            I studied Cognitive Science and Computer Science at UC Berkeley, and
+            like to understand and intersect different perspectives. I have
+            worked in a few different areas of software development. &nbsp;
+            <a className="text-link" target="_blank" href={Resume}>
+              Here&apos;s my resume.
+            </a>
+            &nbsp; <br />
+            <br />
+            My current interests are&nbsp;
+            <span className="emphasis">
+              front-end & web app development.
+            </span>{" "}
+            It excites me to see code transform into something beautiful and
+            interactive. My desire to create to&nbsp;
+            <span className="emphasis">purposeful technology</span>
+            &nbsp;pushes me to keep learning. When I'm not coding or studying
+            JS, you might find me
+            <a
+              className="text-link"
+              target="_blank"
+              href="https://www.instagram.com/baketeito/"
+            >
+              baking bread!
+            </a>
+          </p>
+          <p className="contact">
+            If you'd like to talk about topics related to software development,
+            Cognitive Science, or even bread, I'd love to chat! Shoot me an
+            email at
+            <span className="email"> katehiga8@gmail.com</span>!
+          </p>
         </div>
       </section>
       <section className="project-section">

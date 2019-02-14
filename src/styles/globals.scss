@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans|Rancho|Hind");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC");
 
 html,
 body {
@@ -7,80 +7,82 @@ body {
 }
 body {
   font-family: "Hind", sans-serif;
-
-  color: #474747;
   font-size: 18px;
 }
-h1,
-h2,
-h3 {
-  margin: 0 0 0.2em 0;
-  font-family: "Josefin Sans", sans-serif;
-}
+
 h1 {
   font-size: 3em;
-  letter-spacing: 10px;
-  color: black;
+  letter-spacing: 5px;
+  // color: #6d7993;
+  margin-bottom: 0;
 }
-
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #6d7993;
+  margin: 0;
 }
-
-h3,
+h3 {
+  color: #6d7993;
+  margin: 0;
+}
+.portrait {
+  img {
+    display: block;
+    margin: auto;
+    height: 200px;
+  }
+}
 .caption {
   font-size: 0.9em;
+  line-height: 1.5em;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.intro-section {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  width: 60%;
   min-height: 100%;
-  margin: 10% 0% 0% 10%;
   p {
-    max-width: 600px;
+    max-width: 700px;
     line-height: 1.5em;
-    color: black;
   }
   .intro {
     margin-top: 1.5em;
+    clear: left;
   }
 }
-
 .project-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  clear: left;
+  display: block;
+  margin-top: 50px;
+  background: #6d7993;
   min-height: 100%;
-  margin: 5% 0% 10% 10%;
+  padding: 5% 5% 10% 10%;
   line-height: 1.3em;
+  border-top: 5px solid white;
+  color: black;
+  h2 {
+    width: 100%;
+    color: white;
+  }
+  p {
+    width: 90%;
+  }
 }
 .project-gallery {
   margin-top: 50px;
 }
-img.portrait,
-.portrait {
-  position: relative;
-  float: right;
-  padding: 0;
-  margin: 2em 22% 0 2em;
-  width: 200px;
-  border-radius: 50%;
-}
-
 .emphasis {
-  background: #ffbee0;
-}
-.coded-portrait {
-  position: relative;
+  background: #f2d388;
 }
 
 a.text-link {
   color: black;
   text-decoration: none;
   padding: 3px 5px;
-  border-bottom: 2px solid #c4dfe6;
+  border-bottom: 2px solid lighten(#66a5ad, 30%);
   background: 0;
 }
 a.text-link:hover {
@@ -102,24 +104,26 @@ ul li {
 }
 
 @media screen and (max-width: 700px) {
-  img.portrait,
   .portrait {
-    float: none;
-    position: relative;
-    left: 50%;
-    top: 2%;
-    transform: translateX(-50%) scale(0.8);
-    border-radius: 50%;
-    box-shadow: none;
+    margin-top: 5%;
+    img {
+      display: block;
+      margin: auto;
+      height: 150px;
+    }
   }
   .content {
-    margin-top: 0;
-    margin: 0 5% 0 5%;
+    margin: 0;
+    padding: 0% 10% 10% 10%;
   }
   .project-section {
-    margin: 5% 5% 0 5%;
+    padding: 10%;
   }
   body {
     font-size: 14px;
   }
+  // h1,
+  // h2 {
+  //   font-size: 2em;
+  // }
 } //phone
