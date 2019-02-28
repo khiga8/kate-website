@@ -9,12 +9,18 @@ import clock from "./portfolio/clock.png";
 import menu from "./portfolio/menu.png";
 import pug from "./portfolio/pug.png";
 import todo from "./portfolio/todo.png";
+import twomood from "./portfolio/two-mood.png";
+
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
-import portrait from "./portfolio/portrait.png";
 import { Link } from "gatsby";
 
 const imageGallery = [
+  [
+    twomood,
+    "two-mood toggle | css & JS",
+    "https://codepen.io/khiga8/pen/xMQxOe?editors=0110"
+  ],
   [
     clock,
     "time-responsive clock | css illustration & vanilla JS",
