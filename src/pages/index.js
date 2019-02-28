@@ -1,6 +1,8 @@
 import React from "react";
 import { Gallery } from "../components/Gallery.js";
 import Resume from "../data/kate-resume.pdf";
+import { Header } from "../components/Header.js";
+
 import chatbot from "./portfolio/chatbot.png";
 import boba from "./portfolio/boba.png";
 import clock from "./portfolio/clock.png";
@@ -47,87 +49,67 @@ const HomePage = () => {
         <meta name="description" content="Kate" />
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
+      <Header />
       <section className="intro-section">
         <div className="content">
           <div className="intro-text">
             <h1>
-              Hi, I'm Kate Higa. <br />
+              I'm Kate Higa. I'm a software developer. I like to work on user
+              interfaces. I also like pugs and bread.
             </h1>
             <h2> Currently a UI developer @IBM.</h2>
-          </div>
-          <div className="links">
-            <ul>
-              <li>
-                <a
-                  className="text-link"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/kate-higa-2bab87108"
-                >
-                  Linkedin
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-link"
-                  target="_blank"
-                  href="https://codepen.io/khiga8/"
-                >
-                  Codepen
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-link"
-                  target="_blank"
-                  href="https://github.com/khiga8"
-                >
-                  Github
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-link"
-                  target="_blank"
-                  href="https://medium.com/@katehiga8"
-                >
-                  Medium
-                </a>
-              </li>
-            </ul>
+            <h3> Previously @UCBerkeley, @IBM BigFix, @Goodpatch.</h3>
           </div>
           <p className="intro">
-            I&apos;m a software developer who loves to code visual experiences.
-            I studied Cognitive Science and Computer Science at UC Berkeley, and
-            like to understand and intersect different perspectives .&nbsp;
-            <a className="text-link" target="_blank" href={Resume}>
-              Here&apos;s my resume.
+            <a className="resume-link" target="_blank" href={Resume}>
+              Here's my resume.
             </a>
-            &nbsp; <br />
-            <br />
-            My current interests are&nbsp;
-            <span className="emphasis">
-              front-end & web app development.
-            </span>{" "}
-            It excites me to see code transform into something beautiful and
-            interactive! My desire to create to&nbsp;
-            <span className="emphasis">purposeful technology</span>
-            &nbsp;pushes me to keep learning. When I'm not coding or studying
-            JS, you might find me
-            <a
-              className="text-link"
-              target="_blank"
-              href="https://www.instagram.com/baketeito/"
-            >
-              baking bread!
-            </a>
-          </p>
-          <p className="contact">
-            If you'd like to talk about topics related to software development,
-            Cognitive Science, or even bread, I'd love to chat! Shoot me an
-            email at
+            <br /> <br />
+            If you'd like to chat about any topics related to software
+            development, Cognitive Science, pugs, or bread, shoot me an email at
             <span className="email"> katehiga8@gmail.com</span>!
           </p>
+        </div>
+        <div className="links">
+          <ul>
+            <li>
+              <a
+                className="text-link"
+                target="_blank"
+                href="https://www.linkedin.com/in/kate-higa-2bab87108"
+              >
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-link"
+                target="_blank"
+                href="https://codepen.io/khiga8/"
+              >
+                Codepen
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-link"
+                target="_blank"
+                href="https://github.com/khiga8"
+              >
+                Github
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="text-link"
+                target="_blank"
+                href="https://medium.com/@katehiga8"
+              >
+                Medium
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
       <section className="project-section">

@@ -1,0 +1,28 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  li {
+    float: right;
+    margin-right: 80px;
+  }
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    color: darken(grey, 20%);
+  }
+  li.left {
+    float: left;
+    margin-left: 30px;
+  }
+
+  .active {
+    color: #00cffa;
+  }
+}
