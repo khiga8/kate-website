@@ -73,8 +73,7 @@ const About = () => {
           >
             &nbsp;baking bread too.
           </a>
-          &nbsp;(Funfact: I used a week of my vacation days last year at a bread
-          baking institute!)
+          &nbsp;(Funfact: I spent a week at a bread baking institute last year!)
         </p>
       </section>
     </div>

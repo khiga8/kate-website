@@ -46,7 +46,7 @@ const Now = () => {
             almost done with Chapter 3.
           </li>
         </ul>
-        <h1>Jan</h1>
+        <h1>jan</h1>
         <ul>
           <li>
             I discovered the Codepen community. I found a lot of front end
