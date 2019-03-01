@@ -25,10 +25,10 @@ const About = () => {
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
-          I'm a software developer who carries a multidisciplinary mindset. I
-          care a lot about contributing to technology that changes the world for
-          the better. My current interests are in front-end & web app
-          development. I love seeing code come to life! <br />
+          I'm a software developer who likes to carry a multidisciplinary
+          mindset. I care a lot about contributing to technology that changes
+          the world for the better. My current interests are in front-end & web
+          app development. <br />
           <br /> Growing up in the Bay Area, I've become extremely mindful how
           tech and the tech industry shapes our society, community, and lives.
           As I continue in this field, I strive to deepen my understanding of
@@ -43,36 +43,38 @@ const About = () => {
           about human psychology and behavior. When I'm not coding, you might
           find me listening to podcasts like
           <a
-            className="text-link"
+            className="highlight-link"
             target="_blank"
             href="https://www.npr.org/podcasts/510298/ted-radio-hour"
           >
-            Ted Radio Hour
+            &nbsp;Ted Radio Hour
           </a>
           ,
           <a
-            className="text-link"
+            className="highlight-link"
             target="_blank"
             href="https://www.npr.org/podcasts/510308/hidden-brain"
           >
-            Hidden Brain
+            &nbsp;Hidden Brain
           </a>
           ,
           <a
-            className="text-link"
+            className="highlight-link"
             target="_blank"
             href="https://www.npr.org/podcasts/510307/invisibilia"
           >
-            Invisibilia
+            &nbsp;Invisibilia
           </a>
           . I dream of owning a cafe bakery someday, so you might find me
           <a
-            className="text-link"
+            className="highlight-link"
             target="_blank"
             href="https://www.instagram.com/baketeito/"
           >
-            baking bread.
+            &nbsp;baking bread too.
           </a>
+          &nbsp;(Funfact: I used a week of my vacation days last year at a bread
+          baking institute!)
         </p>
       </section>
     </div>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC");
 
-$border-bottom: #00cffa;
+$blue: #00cffa;
 html,
 body {
   padding: 0;
@@ -17,10 +17,10 @@ h1 {
   margin-bottom: 0;
 }
 .about-me {
-  color: $border-bottom;
+  color: $blue;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5em;
   color: #6d7993;
   margin: 0;
@@ -32,6 +32,7 @@ h2 {
 h3 {
   color: #6d7993;
   margin: 0;
+  font-size: 1em;
 }
 .portrait {
   img {
@@ -49,7 +50,7 @@ h3 {
 .intro-section {
   display: block;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 60%;
   min-height: 100%;
   &.about {
@@ -92,21 +93,22 @@ h3 {
 a.text-link {
   color: black;
   text-decoration: none;
-  padding: 0px 5px;
-  border-bottom: 2px solid lighten($border-bottom, 30%);
+  padding: 0px 3px;
+  font-weight: 1000;
+  border-bottom: 2px solid lighten($blue, 30%);
   background: 0;
 }
-a.resume-link {
-  color: black;
+a.highlight-link {
+  color: $blue;
   text-decoration: none;
+}
+a.highlight-link:hover {
+  color: $blue;
   font-weight: 1000;
 }
-a.resume-link:hover {
-  color: $border-bottom;
-}
 a.text-link:hover {
-  border-bottom: 2px solid darken($border-bottom, 10%);
-  color: black;
+  border-bottom: 2px solid darken($blue, 10%);
+  color: $blue;
 }
 
 .links {
