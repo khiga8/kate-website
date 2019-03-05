@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="content">
           <div className="intro-text">
             <h1>
-              Hi! I'm Kate Higa. <br /> I'm a software developer.
+              Hi! My name is Kate. <br /> I'm a software developer.
               <br /> I like to work on user interfaces.
               <br /> I also like pugs and bread.
             </h1>

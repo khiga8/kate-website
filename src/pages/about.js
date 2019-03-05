@@ -26,11 +26,11 @@ const About = props => {
           mindset. I care a lot about contributing to technology that changes
           the world for the better. My current interests are in front-end & web
           app development. <br />
-          <br /> Growing up in the Bay Area, I've become extremely mindful how
-          tech and the tech industry shapes our society, community, and lives.
-          As I continue in this field, I strive to deepen my understanding of
-          the technological world we live in, and be mindful of my choices and
-          the impact of my work. My strong desire to contribute to to&nbsp;
+          <br /> Growing up in the Bay Area, I've become mindful of how tech and
+          the tech industry shapes our society, community, and lives. As I
+          continue in this field, I strive to deepen my understanding of the
+          technological world we live in, and be mindful of my choices and the
+          impact of my work. My strong desire to contribute to to&nbsp;
           <span className="emphasis">
             mission-driven, purposeful technology
           </span>
