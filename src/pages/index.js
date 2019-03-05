@@ -3,43 +3,9 @@ import { Gallery } from "../components/Gallery.js";
 import Resume from "../data/kate-resume.pdf";
 import { Header } from "../components/Header.js";
 
-import chatbot from "./portfolio/chatbot.png";
-import boba from "./portfolio/boba.png";
-import clock from "./portfolio/clock.png";
-import menu from "./portfolio/menu.png";
-import pug from "./portfolio/pug.png";
-import todo from "./portfolio/todo.png";
-import twomood from "./portfolio/two-mood.png";
-
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
 import { Link } from "gatsby";
-
-const imageGallery = [
-  [
-    twomood,
-    "two-mood toggle | css & JS",
-    "https://codepen.io/khiga8/pen/xMQxOe?editors=0110"
-  ],
-  [
-    clock,
-    "time-responsive clock | css illustration & vanilla JS",
-    "https://codepen.io/khiga8/pen/yZNXjN"
-  ],
-  [chatbot, "chatbot | React", "https://codepen.io/khiga8/pen/vvqBJb"],
-  [
-    boba,
-    "boba guys | css illustration & animation",
-    "https://codepen.io/khiga8/pen/wNKxGm"
-  ],
-  [
-    menu,
-    "dream bakery menu | jquery/js",
-    "https://codepen.io/khiga8/pen/REOvam"
-  ],
-  [pug, "pug | pure css illustration", "https://codepen.io/khiga8/pen/NeLvqX"],
-  [todo, "goals list | React/js", "https://codepen.io/khiga8/pen/pGNgjV"]
-];
 
 const HomePage = () => {
   return (

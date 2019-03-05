@@ -15,6 +15,26 @@ const Now = () => {
       </Helmet>
       <Header />
       <section className="intro-section">
+        <h1>march</h1>
+        <ul>
+          <li>
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://www.internationalwomensday.com/"
+            >
+              International Women's Day
+            </a>{" "}
+            is coming up on March 8th! There was a panel discussion at work
+            today discussing women in the workplace. I had some mixed feelings
+            about some of what was said, but I'll hold my thoughts. This
+            discussion made me reflect on my identity as a woman in a
+            male-dominated field, my own perceptions and biases. It was really
+            interesting to hear of different people's perspectives. It would be
+            really great if open discussions related to diversity and inclusion
+            were more prevalent.
+          </li>
+        </ul>
         <h1>feb</h1>
         <ul>
           <li>

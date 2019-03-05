@@ -35,14 +35,11 @@ h3 {
   font-size: 1em;
 }
 .portrait {
-  img {
-    display: block;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 0;
-    height: 300px;
-  }
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
+
 .caption {
   font-size: 0.9em;
   line-height: 1.5em;
@@ -128,12 +125,10 @@ a.text-link:hover {
 
 @media screen and (max-width: 700px) {
   .portrait {
-    margin-top: 5%;
-    img {
+    &.gatsby-image-wrapper {
       display: block;
-      margin: auto;
-      height: 300px;
     }
+    margin-top: 5%;
   }
   .content {
     margin: 0;

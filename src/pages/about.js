@@ -2,17 +2,10 @@ import React from "react";
 import { Header } from "../components/Header.js";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
-import portrait from "./portfolio/portrait.png";
-import { Link } from "gatsby";
-import Resume from "../data/kate-resume.pdf";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
 
-const self = (
-  <div className="portrait">
-    <img src={portrait} />
-  </div>
-);
-
-const About = () => {
+const About = props => {
   return (
     <div className="main">
       <Helmet>
@@ -21,7 +14,11 @@ const About = () => {
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
       <Header />
-      {self}
+      <Img
+        className="portrait"
+        fixed={props.data.imageOne.childImageSharp.fixed}
+        style={{ display: `block` }}
+      />
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
@@ -73,7 +70,8 @@ const About = () => {
           >
             &nbsp;baking bread too.
           </a>
-          &nbsp;(Funfact: I spent a week at a bread baking institute last year!)
+          &nbsp;(Fun Fact: I spent a week at a bread baking institute last
+          year!)
         </p>
       </section>
     </div>
@@ -81,3 +79,15 @@ const About = () => {
 };
 
 export default About;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "portrait.png" }) {
+      childImageSharp {
+        fixed(height: 300) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`;
