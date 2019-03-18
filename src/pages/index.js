@@ -57,6 +57,15 @@ const HomePage = () => {
                   Github
                 </a>
               </li>
+              <li>
+                <a
+                  className="text-link"
+                  target="_blank"
+                  href="https://twitter.com/kate8pug"
+                >
+                  Twitter
+                </a>
+              </li>
 
               <li>
                 <a
