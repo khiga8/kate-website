@@ -18,13 +18,35 @@ const Now = () => {
         <h1>march</h1>
         <ul>
           <li>
+            I attended a Reactjs &nbsp;
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://www.meetup.com/ReactJS-San-Francisco/events/253391724/"
+            >
+              meetup&nbsp;
+            </a>
+            hosted by Postmates. There was another talk about hooks (I have yet
+            to try it out) by a Postmates developer, a really awesome demo
+            of&nbsp;
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://parceljs.org/"
+            >
+              Parcel&nbsp;
+            </a>
+            by the creator of Parcel himself, and an engaging talk about the
+            cost of transpiling by Jamie Kyle.
+          </li>
+          <li>
             <a
               className="highlight-link"
               target="_blank"
               href="https://www.internationalwomensday.com/"
             >
               International Women's Day
-            </a>{" "}
+            </a>
             is coming up on March 8th! There was a panel discussion at work
             today discussing women in the workplace. I had some mixed feelings
             about some of what was said, but I'll hold my thoughts. This
