@@ -80,9 +80,7 @@ h3 {
     width: 90%;
   }
 }
-.project-gallery {
-  margin-top: 50px;
-}
+
 .emphasis {
   background: #f2d388;
 }
@@ -141,12 +139,15 @@ a.text-link:hover {
     font-size: 14px;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   h3 {
-    font-size: 0.8em;
+    font-size: 0.7em;
+  }
+  .intro-section {
+    width: 80%;
   }
 } //phone
