@@ -20,8 +20,9 @@ const HomePage = () => {
         <div className="content">
           <div className="intro-text">
             <h1>
-              Hi! My name is Kate. <br /> I'm a software developer.
-              <br /> I like to work on user interfaces.
+              Hi! My name is Kate. <br /> I'm a software developer motivated by
+              mission-driven technology.
+              <br /> I like creating user interfaces.
               <br /> I also like pugs and bread.
             </h1>
             <br />
