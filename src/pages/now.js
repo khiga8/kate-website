@@ -15,8 +15,41 @@ const Now = () => {
       </Helmet>
       <Header />
       <section className="intro-section">
+        <h1>events I'm excited for! </h1>
+        <ul>
+          <li>
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://women.dev/"
+            >
+              Women Who Code Connect Conference 2019
+            </a>
+          </li>
+          <li>
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://www.eventbrite.com/e/women-changemakers-in-social-innovation-panel-mixer-tickets-57772065804"
+            >
+              Women Changemakers in Social Innovation Panel & Mixer
+            </a>
+          </li>
+        </ul>
         <h1>march</h1>
         <ul>
+          <li>
+            One of my little&nbsp;
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://codepen.io/khiga8/pen/MxrRpK"
+            >
+              codepen&nbsp;
+            </a>
+            was featured on the Picked Pens page! I got excited knowing that
+            there are people who see and like my work!
+          </li>
           <li>
             I attended a Reactjs &nbsp;
             <a
