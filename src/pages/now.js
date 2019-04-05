@@ -26,18 +26,20 @@ const Now = () => {
               Women Who Code Connect Conference 2019
             </a>
           </li>
+        </ul>
+        <h1>march</h1>
+        <ul>
           <li>
+            I attended a&nbsp;
             <a
               className="highlight-link"
               target="_blank"
               href="https://www.eventbrite.com/e/women-changemakers-in-social-innovation-panel-mixer-tickets-57772065804"
             >
-              Women Changemakers in Social Innovation Panel & Mixer
+           "Changemakers in Social Innovation Panel & Mixer"
             </a>
+            &nbsp;hosted by Women4Good in SF. It was my first time at their event, and honestly, this was AMAZING. From women who work at startups, to women who work at corporations, to women who work in non-profits, it was a gathering of women of various background. One thing we all had in common was we cared about social innovation, and making the world a better place. The panelists were all extremely passionate, professional, and experienced and I feel SO EMPOWERED!! I look up to these ladies so much.
           </li>
-        </ul>
-        <h1>march</h1>
-        <ul>
           <li>
             One of my little&nbsp;
             <a
