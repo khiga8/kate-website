@@ -2,10 +2,11 @@ import React from "react";
 import { Header } from "../components/Header.js";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
+import Layout from '../components/layout';
 
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
 
-const Now = () => {
+const Now = (props) => {
   return (
     <div className="main">
       <Helmet>
@@ -15,16 +16,19 @@ const Now = () => {
       </Helmet>
       <Header />
       <section className="intro-section">
-        <h1>events I'm excited for! </h1>
+        <h1>april </h1>
         <ul>
           <li>
-            <a
+            I attended the <a
               className="highlight-link"
               target="_blank"
               href="https://women.dev/"
             >
-              Women Who Code Connect Conference 2019
-            </a>
+              Women Who Code Connect Conference 2019,
+            </a> an annual conference with women from all over the world! &nbsp;
+            <Link to="/now/apr2019-wwcc/" className="blog-link" >
+              Read more about my experience here.
+            </Link>
           </li>
         </ul>
         <h1>march</h1>
@@ -38,7 +42,7 @@ const Now = () => {
             >
            "Changemakers in Social Innovation Panel & Mixer"
             </a>
-            &nbsp;hosted by Women4Good in SF. It was my first time at their event, and honestly, this was AMAZING. From women who work at startups, to women who work at corporations, to women who work in non-profits, it was a gathering of women of various background. One thing we all had in common was we cared about social innovation, and making the world a better place. The panelists were all extremely passionate, professional, and experienced and I feel SO EMPOWERED!! I look up to these ladies so much.
+            &nbsp;hosted by Women4Good in SF. From women who work at startups, to women who work at corporations, to women who work in non-profits, it was a gathering of women of various background.&nbsp;
           </li>
           <li>
             One of my little&nbsp;
@@ -80,7 +84,7 @@ const Now = () => {
               target="_blank"
               href="https://www.internationalwomensday.com/"
             >
-              International Women's Day
+              International Women's Day &nbsp;
             </a>
             is coming up on March 8th! There was a panel discussion at work
             today discussing women in the workplace. I had some mixed feelings
@@ -127,7 +131,7 @@ const Now = () => {
         <ul>
           <li>
             I discovered the Codepen community. I found a lot of front end
-            developers I can look up to. It's really inspiring to see what
+            developers I can look up to. It is really inspiring to see what
             others create.
           </li>
           <li>
@@ -149,3 +153,22 @@ const Now = () => {
 };
 
 export default Now;
+
+export const listQuery = graphql`
+  query ListQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          fields{
+            slug
+          }
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM Do YYYY")
+            title
+          }
+        }
+      }
+    }
+  }
+`

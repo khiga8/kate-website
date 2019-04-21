@@ -26,6 +26,7 @@ h2 {
   margin: 0;
 }
 
+
 .intro-text {
   margin-bottom: 30px;
 }
@@ -33,6 +34,12 @@ h3 {
   color: #6d7993;
   margin: 0;
   font-size: 1em;
+}
+
+.back{
+  text-decoration: none;
+  font-weight: bold;
+  color: $blue;
 }
 .portrait {
   margin: auto;
@@ -43,6 +50,16 @@ h3 {
 .caption {
   font-size: 0.9em;
   line-height: 1.5em;
+}
+
+.blog-section{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+a.blog-link{
+  text-decoration: none;
+  color: #BA55D3;
 }
 .intro-section {
   display: block;
