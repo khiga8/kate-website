@@ -20,7 +20,21 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
+    {
+   resolve: `gatsby-transformer-remark`,
+   options: {
+     plugins: [
+       {
+         resolve: `gatsby-remark-images`,
+         options: {
+           linkImagesToOriginal: false,
+           maxWidth: 500,
+
+         },
+       },
+     ],
+   },
+ },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`

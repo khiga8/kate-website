@@ -36,6 +36,7 @@ export const query = graphql`
         image {
           childImageSharp {
             resize(width: 500, height: 300) {
+              aspectRatio
               src
             }
             fluid(maxWidth: 500) {
