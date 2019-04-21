@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC|PT+Serif");
 
 $blue: #00cffa;
 html,
@@ -29,6 +29,11 @@ h2 {
 
 .intro-text {
   margin-bottom: 30px;
+}
+
+.blog-text{
+  font-family: 'PT Serif', serif;
+  line-height: 1.5em;
 }
 h3 {
   color: #6d7993;

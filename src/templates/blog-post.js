@@ -13,7 +13,7 @@ function BlogPost(props) {
       <div>
         <h1> {title} </h1>
         {image && <Img fluid={image.childImageSharp.fluid} />}
-          <div
+          <div className="blog-text"
             dangerouslySetInnerHTML={{
               __html: post.html
             }}
@@ -43,7 +43,7 @@ export const query = graphql`
             }
           }
         }
-       }
+      }
    }
 }
 `
