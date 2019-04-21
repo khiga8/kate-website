@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/Header.js";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
-import Layout from '../components/layout';
+import Layout from '../components/Layout.js';
 
 import { Link, graphql } from "gatsby";
 
