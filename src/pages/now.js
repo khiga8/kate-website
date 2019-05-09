@@ -16,6 +16,19 @@ const Now = (props) => {
       </Helmet>
       <Header />
       <section className="intro-section">
+				<h1>upcoming events</h1>
+					<ul>
+						<li>
+							 <a
+								className="highlight-link"
+								target="_blank"
+								href="https://www.eventbrite.com/e/cultivating-diversity-and-inclusion-in-tech-panel-mixer-tickets-61180141450"
+							>
+								Cultivating Diversity and Inclusion in Tech: Panel & Mixer
+							</a>
+						</li>
+					</ul>
+
         <h1>april </h1>
         <ul>
           <li>
