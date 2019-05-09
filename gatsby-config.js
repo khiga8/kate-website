@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Kate Higa Website"
+    title: "Kate Higa",
+    description:"developer & bread enthusiast excited about mission-driven technology",
+    siteUrl: "https://katehiga.com/"
+
   },
   plugins: [
     {

@@ -1,19 +1,9 @@
-<p align="center">
-</p>
-<h1 align="center">
-  katehiga.com
-</h1>
-<p> 
-  Hello, this is a personal portfolio website that I built with the following: 
-  <ul> 
-    <li>
-      React.js / SCSS
-    </li> 
-        <li>
-      Gatsby.js (React-based static site generator)
-    </li> 
-            <li>
-Netlify (For Hosting)
-    </li> 
-    </ul>
-  </p>
+
+# Kate Higa Personal Website
+###
+You can check out my personal website here: https://katehiga.com/
+
+## My website was created and deployed with:
+* [React.js](https://reactjs.org/) - a JavaScript library for building user interface
+* [GatsbyJS](https://www.gatsbyjs.org/) - a fast modern site generator for React.
+* [Netlify](https://www.netlify.com/)- an all-in-one workflow for quickly deploying websites
