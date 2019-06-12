@@ -16,16 +16,21 @@ const Now = (props) => {
       </Helmet>
       <Header />
       <section className="intro-section">
-				<h1>upcoming events</h1>
+				<h1>may</h1>
 					<ul>
 						<li>
+							I attended another&nbsp;
 							 <a
 								className="highlight-link"
 								target="_blank"
 								href="https://www.eventbrite.com/e/cultivating-diversity-and-inclusion-in-tech-panel-mixer-tickets-61180141450"
 							>
-								Cultivating Diversity and Inclusion in Tech: Panel & Mixer
+								"Cultivating Diversity and Inclusion in Tech: Panel & Mixer"
 							</a>
+							&nbsp;hosted by Women4Good.
+							<Link to="/now/may2019-w4good-erg/" className="blog-link" >
+								&nbsp;Read more about it here!
+							</Link>
 						</li>
 					</ul>
 
