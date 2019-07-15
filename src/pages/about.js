@@ -22,15 +22,14 @@ const About = props => {
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
-          I'm a software developer who likes to carry a multidisciplinary
-          mindset. I care a lot about contributing to technology that changes
-          the world for the better. My current interests are in front-end & web
-          app development. <br />
-          <br /> Growing up in the Bay Area, I've become mindful of how tech and
-          the tech industry shapes our society, community, and lives. As I
-          continue in this field, I strive to deepen my understanding of the
-          technological world we live in, and be mindful of my choices and the
-          impact of my work. My strong desire to contribute to to&nbsp;
+          I am a software developer who strives to carry a multidisciplinary
+          mindset. My current interests lie in UI development.
+          <br />
+          <br /> Growing up in the Bay Area, I've become aware of how tech and
+          the tech industry has come to shape our society, community, and lives.
+          As I continue in this field, I strive to deepen my understanding of
+          the technological world we live in, and be mindful of my choices and
+          the impact of my work. My strong desire to contribute to to&nbsp;
           <span className="emphasis">
             mission-driven, purposeful technology
           </span>
@@ -70,8 +69,8 @@ const About = props => {
           >
             &nbsp;baking bread too.
           </a>
-          &nbsp;(Fun Fact: I spent a week at a bread baking institute last
-          year!)
+          &nbsp;(Fun Fact: I spent a week of my vacation days at a bread baking
+          institute!)
         </p>
       </section>
     </div>

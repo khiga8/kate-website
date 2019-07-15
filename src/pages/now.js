@@ -2,11 +2,11 @@ import React from "react";
 import { Header } from "../components/Header.js";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
-import Layout from '../components/Layout.js';
+import Layout from "../components/Layout.js";
 
 import { Link, graphql } from "gatsby";
 
-const Now = (props) => {
+const Now = props => {
   return (
     <div className="main">
       <Helmet>
@@ -16,35 +16,50 @@ const Now = (props) => {
       </Helmet>
       <Header />
       <section className="intro-section">
-				<h1>may</h1>
-					<ul>
-						<li>
-							I attended another&nbsp;
-							 <a
-								className="highlight-link"
-								target="_blank"
-								href="https://www.eventbrite.com/e/cultivating-diversity-and-inclusion-in-tech-panel-mixer-tickets-61180141450"
-							>
-								"Cultivating Diversity and Inclusion in Tech: Panel & Mixer"
-							</a>
-							&nbsp;hosted by Women4Good.
-							<Link to="/now/may2019-w4good-erg/" className="blog-link" >
-								&nbsp;Read more about it here!
-							</Link>
-						</li>
-					</ul>
+        <h1>july</h1>
+        <ul>
+          <li>
+            It's been one year since I graduated and started working as a
+            fulltime software engineering. It's been a year of ups and downs. I
+            wrote a reflection here: &nbsp;
+            <Link to="/now/july2019-reflection" className="blog-link">
+              "Reflecting on One Year after Graduation"
+            </Link>
+          </li>
+        </ul>
+        <h1>june</h1>
+        <i> Whoops, nothing here...</i>
+        <h1>may</h1>
+        <ul>
+          <li>
+            I attended another&nbsp;
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://www.eventbrite.com/e/cultivating-diversity-and-inclusion-in-tech-panel-mixer-tickets-61180141450"
+            >
+              "Cultivating Diversity and Inclusion in Tech: Panel & Mixer"
+            </a>
+            &nbsp;hosted by Women4Good.
+            <Link to="/now/may2019-w4good-erg/" className="blog-link">
+              &nbsp;Read more about it here!
+            </Link>
+          </li>
+        </ul>
 
         <h1>april </h1>
         <ul>
           <li>
-            I attended the <a
+            I attended the{" "}
+            <a
               className="highlight-link"
               target="_blank"
               href="https://women.dev/"
             >
               Women Who Code Connect Conference 2019,
-            </a> an annual conference with women from all over the world! &nbsp;
-            <Link to="/now/apr2019-wwcc/" className="blog-link" >
+            </a>{" "}
+            an annual conference with women from all over the world! &nbsp;
+            <Link to="/now/apr2019-wwcc/" className="blog-link">
               Read more about my experience here.
             </Link>
           </li>
@@ -58,9 +73,11 @@ const Now = (props) => {
               target="_blank"
               href="https://www.eventbrite.com/e/women-changemakers-in-social-innovation-panel-mixer-tickets-57772065804"
             >
-           "Changemakers in Social Innovation Panel & Mixer"
+              "Changemakers in Social Innovation Panel & Mixer"
             </a>
-            &nbsp;hosted by Women4Good in SF. From women who work at startups, to women who work at corporations, to women who work in non-profits, it was a gathering of women of various background.&nbsp;
+            &nbsp;hosted by Women4Good in SF. From women who work at startups,
+            to women who work at corporations, to women who work in non-profits,
+            it was a gathering of women of various background.&nbsp;
           </li>
           <li>
             One of my little&nbsp;
@@ -177,7 +194,7 @@ export const listQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          fields{
+          fields {
             slug
           }
           excerpt(pruneLength: 250)
@@ -189,4 +206,4 @@ export const listQuery = graphql`
       }
     }
   }
-`
+`;
