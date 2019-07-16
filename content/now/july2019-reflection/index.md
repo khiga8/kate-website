@@ -53,7 +53,7 @@ In addition, for the first time ever, I had a female role-model engineer figure.
 Outside of work, I started to attend some career-related events hosted by groups such as ReactJS SF, Women4Good, and Women Who Code. These meet-up events turned out to be a great way to connect with others in the field, and become familiar with various topics one normally may not be exposed to. For example, Diversity and Inclusion was a topic that often came up at these events-- this was of natural interest to me.
 
 ##Post-grad Crisis
-In this first full-time software engineering role, I received the support I needed to grow as an engineer. Yet I still had feelings of uncertainty.
+In my first full-time software engineering role, I was extremely fortunate to receive the support I needed to grow as an engineer. Yet I still had feelings of uncertainty in this role.
 
 As a student, it felt like I had absolutely no time. If I was not in class, I was studying. If I wasn’t studying, I was working. If I wasn’t working, I was tending to my club commitments. I never really had time for myself.
 
