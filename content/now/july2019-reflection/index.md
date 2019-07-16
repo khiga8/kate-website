@@ -5,7 +5,7 @@ date: "2019-07-15"
 ---
 
 ###My time at Berkeley, working full time as an engineer, and finding fulfillment through work
-I graduated from UC Berkeley in May of 2018 with a major in Cognitive Science and a minor in Computer Science. Upon graduating, I was fortunate to have received a job offer as a software engineer from a large tech company. As a first generation college student and first generation American, my parents were more than proud of me for having graduated from a reputable university, and relieved that I would have a well-paying job. I was relieved too. My mom had always told me growing up, “I never want you to worry about money. I want you to be a strong, financially independent woman.”
+I graduated from UC Berkeley in May of 2018 with a major in Cognitive Science and a minor in Computer Science. Upon graduating, I was fortunate to have an offer as a software engineer from a large tech company. As a first generation college student and first generation American, my parents were more than proud of me for having graduated from a reputable university, and relieved that I would have a well-paying job. I was relieved too. My mom had always told me growing up, “I never want you to worry about money. I want you to be a strong, financially independent woman.”
 
 Coming into my first full-time software engineering role, I had so many doubts in my mind regarding my competency working as a professional software engineer, and whether I “belonged” in tech.
 
@@ -39,7 +39,7 @@ Recruiting season rolled around again. Restlessness and career fairs took over B
 
 I received an internship offer working on an enterprise security product. To be honest, I did not care much for enterprise security. Looking back, I wish that I had taken the time to slow down and think deeply about where my true interests lie. However, I know that at the time, as a busy student juggling multiple responsibilities, I felt like I had no time. Especially as a first generation college student and child of immigrants, my priority was to find a “good”, stable job so that I wouldn't worry about money. I think that at the time, I was not capable of considering other important aspects of a career like enjoyment and fulfillment.
 
-Without getting too much into how my internship experience was that summer, my takeaway was that I wanted to work on something more user-facing like I had in my previous internship. While I received a full-time offer back, I let my recruiter know that I hoped to work on something more user facing. To my luck, he came back to me a few weeks later letting me know that a front-end developer position opened up in a different office for a different product. YES! I accepted this offer.
+Without getting too much into how my internship experience was that summer, my takeaway was that I wanted to work on something more user-facing like I had in my previous internship. While I received a full-time offer back, I mentioned to my recruiter that I hoped to work on something more user facing. To my surprise, he came back to me a few weeks later letting me know that a front-end developer position opened up in a different office for a different product. YES! I accepted this offer.
 
 ##My first year as an engineer
 This month marks the end of my full year as a full-time software engineer. Throughout college, I had so many doubts about my competency as an engineer.
@@ -48,9 +48,9 @@ I’m happy to say that lot of this doubt and extreme imposter syndrome I felt b
 
 However, I am more confident in my ability to learn what I _need_ to learn, communicate well with my team members, follow good coding guidelines, and manage my time to complete time-sensitive tasks. I attribute this new confidence in myself to the incredible support and mentorship I received from my team at work. I think my team and manager believed in me and gave me positive feedback when I completed a job well. Having people believe in you is incredibly powerful. I felt valued. Working alongside talented, smart engineers inspired and motivated me to want to “be better”.
 
-In addition, for the first time ever, I had a female role-model engineer figure. Throughout college, I did not have any female professors or TA’s in my computer science classes. Finally in my team, there was another female experienced engineer. She was incredibly smart and always seemed to have her shit together, yet a fantastic team player who others always leaned on— she served as a huge role model figure for me. Others on this team also served as engineers I aspired to be like.
+In addition, for the first time ever, I had a female role-model engineer figure! Throughout college, I did not have any female professors nor TA’s in my computer science classes. Yet finally in this team, I had the chance to work alongside an experienced female engineer. She was incredibly smart and always seemed to have her shit together, yet a team player who others always leaned on. She, along with the other experienced members of my team, served to be engineers I aspired to be like.
 
-Outside of work, I started to attend some career-related events hosted by groups such as ReactJS SF, Women4Good, and Women Who Code. These meet-up events turned out to be a great way to connect with others in the field, and become familiar with various topics one normally may not be exposed to. For example, Diversity and Inclusion was a topic that often came up at these events-- this was of natural interest to me.
+Outside of work, I started to attend some technology and career-related events hosted by groups such as [ReactJS SF](https://www.meetup.com/ReactJS-San-Francisco/), [**Women4Good**](http://www.women4good.com/), and [**Women Who Code (WWC)**](https://www.womenwhocode.com/). These meet-up events turned out to be a great way to connect with others in the field, and become familiar with various topics one normally may not be exposed to. For example, Diversity and Inclusion was a topic that often came up at these events-- this was of natural interest to me.
 
 ##Post-grad Crisis
 In my first full-time software engineering role, I was extremely fortunate to receive the support I needed to grow as an engineer. Yet I still had feelings of uncertainty in this role.
@@ -72,7 +72,7 @@ I began to ask myself:
 - What is meaningful work to me?
 - What do I care about?
 - What impact am I making right now?
-- Is work simply a means to make a living, or is it something I should seek fulfillment from?
+- Is work a means to make a living, or is it something I should seek fulfillment from?
 
 I acknowledge that having this time to think and question my career is an enormous privilege that comes with having a stable source of income and having no other responsibilities like a family to care of. All my life, I worked towards getting into college, and finding a job. I finally had what I and my parents had hoped for. Yet I felt like something was missing.
 
