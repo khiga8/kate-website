@@ -53,34 +53,35 @@ In addition, for the first time ever, I had a female role-model engineer figure.
 Outside of work, I started to attend some career-related events hosted by groups such as ReactJS SF, Women4Good, and Women Who Code. These meet-up events turned out to be a great way to connect with others in the field, and become familiar with various topics one normally may not be exposed to. For example, Diversity and Inclusion was a topic that often came up at these events-- this was of natural interest to me.
 
 ##Post-grad Crisis
-In this first fulltime software engineering role, I received the support I needed to grow as an engineer. Yet I still had feelings of uncertainty.
+In this first full-time software engineering role, I received the support I needed to grow as an engineer. Yet I still had feelings of uncertainty.
 
 As a student, it felt like I had absolutely no time. If I was not in class, I was studying. If I wasn’t studying, I was working. If I wasn’t working, I was tending to my club commitments. I never really had time for myself.
 
-Once I started working full-time, I suddenly have a lot of time.
+Once I started working full-time, I found myself with a lot of time.
 
 I had time to think by myself.
-And time to question _what_ I was doing with my time (which I had a lot of!).
+And time to question _what_ I was doing,
 And time to question _why_ I was doing what I was doing.
 
-With all these questions circling my mind, I experienced a full-blown post-grad, quarter-life crisis. A quarter-life crisis seems to be a common phenomenon amongst new grads... Up until this point, we have an idea of what we are supposed to do. However, after graduation, we come to realize that how we wanted to live our life, and what we make of our lives is <i> entirely </i> up to us. I liked the people I worked with. I was learning a lot. I always made sure to put my all into whatever job was at hand. Yet I would come home after work. I did not feel fulfilled by the work I was doing.
+With all these questions circling my mind, I experienced a _full-blown post-grad, quarter-life crisis_. A quarter-life crisis seems to be a common phenomenon amongst new grads... Up until this point, a lot of us have an idea of what we are supposed to do. However, after graduation, we come to realize that how we wanted to live our life, and what we make of our lives is <i> entirely </i> up to us. I liked the people I worked with. I was learning a lot. I always made sure to put my all into whatever job was at hand. I spent all day at work focused, learning, and completing my assignments at hand. Yet I would come home after work, sit by myself, and think "What am I doing this for?"
 
-I began to question:
+I began to ask myself:
 
 - What is it I want to accomplish in my life?
-- Is work simply a means to make money, or is it something I should seek fulfillment from?
-- What is the higher level thing I want to accomplish as an engineer?
+- What is it I hope to accomplish as an engineer?
 - What is meaningful work to me?
 - What do I care about?
 - What impact am I making right now?
+- Is work simply a means to make a living, or is it something I should seek fulfillment from?
 
-I acknowledge that having this time to think and question my career is an enormous privilege that comes with having a stable source of income and having no other responsibilities to think about like a family to care of. All my life, I worked towards getting into college, and finding a job. I finally had what I, and my parents had hoped for, yet something did not feel right.
+I acknowledge that having this time to think and question my career is an enormous privilege that comes with having a stable source of income and having no other responsibilities like a family to care of. All my life, I worked towards getting into college, and finding a job. I finally had what I and my parents had hoped for. Yet I felt like something was missing.
 
 When I spoke to my mom about seeking fulfillment from work, she could not grasp what I meant. “You have a well paying job, you have a place to live, and you have food to eat. What more could you possibly want?” I understand where my mom was coming from. It was difficult to justify feeling what I felt.
 
+##Trying to figure things out
 In an attempt to find answers, I began attending a number of tech and career related events, connected with others in the field, and researched the opportunities that were out there within tech that aligned closely to the causes I cared about. I reached out to my peers and friends of peers in the field, and even met up with strangers for career advice within tech.
 
-As I started to expand my horizon, I began to see that there was a lot more to tech and software engineering than what people might traditionally think about, and what I had been exposed to at career fairs. With opportunities within non-profits, and job forums like TechJobs4Good, there are numerous companies and groups of people who genuinely seek to make a positive impact using tech within various sectors like healthcare and education. "Tech" is a means to an end. As I discovered these opportunities and discovered this idea of mission-driven technology, I felt really excited. It became more clear to me what I wanted to accomplish as a software engineer. My world opened up.
+As I began to expand my horizon, I saw that there was a lot more to tech and software engineering than what people might traditionally think about. At the career fairs I attended as a student, companies showed off their "sexiness" by flaunting various perks like free food, flashy office space, ping pong tables, \$\$, and status. I admit, perks like free food are super enticing, and there is nothing wrong with prioritizing these. I came to realize that there is a whole other world of opportunities within tech. Through forums like TechJobs4Good, I found that there were numerous companies and groups of people who sought to make a direct impact in civic tech, healthcare, and education. I came to see that tech was simply a means to an end. As I discovered these opportunities and discovered this different side of tech, I felt so excited. It started to become more clear to me what I wanted to accomplish as a software engineer. My world opened up.
 
 ##To sum it up...
 This past year has been a roller coaster. I still haven’t quite figured out adulting, nor what it is I _should_ be doing. But if I compare myself to where I was a year ago, I feel a lot more confident in my abilities and my place as an engineer. I attribute this to the work experience I've gained, the people I've encountered, and the communities I have found. I'm very excited to continue learning and growing as an engineer. I've been able to find clear career goals that I can feel excited about and work towards.
