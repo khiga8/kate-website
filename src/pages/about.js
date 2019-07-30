@@ -28,12 +28,12 @@ const About = props => {
           <br /> Growing up in the Bay Area, I've become aware of how tech and
           the tech industry has come to shape our society, community, and lives.
           As I continue in this field, I strive to deepen my understanding of
-          the technological world we live in, and be mindful of my choices and
-          the impact of my work. My strong desire to contribute to to&nbsp;
+          the technological world we live in, stay mindful of my choices and the
+          impact of my work. I am excited to work on&nbsp;
           <span className="emphasis">
-            mission-driven, purposeful technology
+            mission-driven, purposeful technology.
           </span>
-          &nbsp; motivates me to keep learning and growing in this field.
+          &nbsp;
           <br />
           <br />I carry a background in Cognitive Science, and love learning
           about human psychology and behavior. When I'm not coding, you might

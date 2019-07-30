@@ -23,12 +23,12 @@ const HomePage = () => {
               Hi, I'm Kate.
               <br /> I'm a software developer motivated by mission-driven
               technology.
-              <br /> I like creating user interfaces.
+              <br /> I like developing user interfaces.
               <br /> I also like pugs and bread.
             </h1>
             <br />
-            <h2> Currently a UI developer @IBM.</h2>
-            <h3> Previously @UCBerkeley, @IBM BigFix, @Goodpatch.</h3>
+            <h2> Currently an Engineer @Informed K12.</h2>
+            <h3>Previously @IBM SVL, @UC Berkeley, @IBM BigFix, @Goodpatch.</h3>
           </div>
           <div className="links">
             <ul>

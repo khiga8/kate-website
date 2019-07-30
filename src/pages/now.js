@@ -19,6 +19,10 @@ const Now = props => {
         <h1>july</h1>
         <ul>
           <li>
+            Started my new role at Informed K12! If you're interested in hearing
+            more about my transition or the company, ping me!
+          </li>
+          <li>
             It's been one year since I graduated and started working as a
             fulltime software engineering. It's been a year of ups and downs. I
             wrote a reflection here: &nbsp;
