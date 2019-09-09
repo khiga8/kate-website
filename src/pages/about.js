@@ -22,22 +22,21 @@ const About = props => {
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
-          I am a software developer who strives to carry a multidisciplinary
-          mindset. My current interests lie in UI development.
+          Hi, I'm Kate! I'm a software engineer excited by mission-driven
+          technology. My main interests lie in UI and web development.
+          Sometimes, I like to fiddle around with CSS and javascript and create
+          code illustrations! <br />
           <br />
-          <br /> Growing up in the Bay Area, I've become aware of how tech and
-          the tech industry has come to shape our society, community, and lives.
-          As I continue in this field, I strive to deepen my understanding of
-          the technological world we live in, stay mindful of my choices and the
-          impact of my work. I am excited to work on&nbsp;
-          <span className="emphasis">
-            mission-driven, purposeful technology.
-          </span>
-          &nbsp;
+          Growing up in the Bay Area, I've become mindful of how technology and
+          the tech industry shapes our society, community, and lives. As I
+          continue in this field, I strive to be mindful of the impact of my
+          work and the choices I make. I enjoy working on mission-driven
+          technology and hope to leave a positive impact on society through my
+          everyday work!
           <br />
-          <br />I carry a background in Cognitive Science, and love learning
-          about human psychology and behavior. When I'm not coding, you might
-          find me listening to podcasts like
+          <br /> I carry a background in Cognitive Science, and love learning
+          about human psychology and behavior. You might find me listening to
+          podcasts like
           <a
             className="highlight-link"
             target="_blank"
@@ -61,13 +60,13 @@ const About = props => {
           >
             &nbsp;Invisibilia
           </a>
-          . I dream of owning a cafe bakery someday, so you might find me
+          . I am also a baking and baked goods fanatic, so you might find me
           <a
             className="highlight-link"
             target="_blank"
             href="https://www.instagram.com/baketeito/"
           >
-            &nbsp;baking bread too.
+            &nbsp;baking often too.
           </a>
           &nbsp;(Fun Fact: I spent a week of my vacation days at a bread baking
           institute!)

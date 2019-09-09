@@ -21,7 +21,7 @@ export class Header extends React.Component {
         <ul className="menu">
           <li className="left">
             <Link activeClassName="active" to="/">
-              kate
+              Kate
             </Link>
           </li>
           <ListLink to="/now/">2019 Insights 💡</ListLink>

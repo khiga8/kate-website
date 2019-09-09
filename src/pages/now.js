@@ -20,8 +20,10 @@ const Now = props => {
         <ul>
           <li>
             Started my new role at Informed K12! If you're interested in hearing
-            more about my transition or the company, ping me!
+            more about my transition to a startup or the company, shoot me a
+            message!
           </li>
+          <br />
           <li>
             It's been one year since I graduated and started working as a
             fulltime software engineering. It's been a year of ups and downs. I
@@ -54,14 +56,14 @@ const Now = props => {
         <h1>april </h1>
         <ul>
           <li>
-            I attended the{" "}
+            I attended the
             <a
               className="highlight-link"
               target="_blank"
               href="https://women.dev/"
             >
               Women Who Code Connect Conference 2019,
-            </a>{" "}
+            </a>
             an annual conference with women from all over the world! &nbsp;
             <Link to="/now/apr2019-wwcc/" className="blog-link">
               Read more about my experience here.
@@ -83,6 +85,7 @@ const Now = props => {
             to women who work at corporations, to women who work in non-profits,
             it was a gathering of women of various background.&nbsp;
           </li>
+          <br />
           <li>
             One of my little&nbsp;
             <a
@@ -95,6 +98,8 @@ const Now = props => {
             was featured on the Picked Pens page! I got excited knowing that
             there are people who see and like my work!
           </li>
+          <br />
+          <br />
           <li>
             I attended a Reactjs &nbsp;
             <a
@@ -117,6 +122,7 @@ const Now = props => {
             by the creator of Parcel himself, and an engaging talk about the
             cost of transpiling by Jamie Kyle.
           </li>
+          <br />
           <li>
             <a
               className="highlight-link"
@@ -152,6 +158,7 @@ const Now = props => {
             instacart engineer about using CSS in JS. Really educational. I
             think it's important for me to go out to these events and learn.
           </li>
+          <br />
           <li>
             I started reading&nbsp;
             <a
@@ -173,6 +180,7 @@ const Now = props => {
             developers I can look up to. It is really inspiring to see what
             others create.
           </li>
+          <br />
           <li>
             I have been challenging myself to have fun with my own mini
             code&nbsp;

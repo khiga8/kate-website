@@ -1,7 +1,7 @@
 import React from "react";
-import { Gallery } from "../components/Gallery.js";
-import Resume from "../data/kate-resume.pdf";
 import { Header } from "../components/Header.js";
+import { CoffeeDrink } from "../components/CoffeeDrink.js";
+import { Croissant } from "../components/Croissant.js";
 
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
@@ -19,16 +19,14 @@ const HomePage = () => {
       <section className="intro-section">
         <div className="content">
           <div className="intro-text">
-            <h1>
-              Hi, I'm Kate.
-              <br /> I'm a software developer motivated by mission-driven
-              technology.
-              <br /> I like developing user interfaces.
-              <br /> I also like pugs and bread.
-            </h1>
+            <h1>Kate　Higa</h1>
+            <h2>Software Engineer @Informed K12</h2>
             <br />
-            <h2> Currently an Engineer @Informed K12.</h2>
             <h3>Previously @IBM SVL, @UC Berkeley, @IBM BigFix, @Goodpatch.</h3>
+          </div>
+          <div className="things-i-like">
+            <CoffeeDrink className="card" />
+            <Croissant className="card" />
           </div>
           <div className="links">
             <ul>
@@ -59,15 +57,6 @@ const HomePage = () => {
                   Github
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-link"
-                  target="_blank"
-                  href="https://twitter.com/kate8pug"
-                >
-                  Twitter
-                </a>
-              </li>
 
               <li>
                 <a
@@ -81,10 +70,6 @@ const HomePage = () => {
             </ul>
           </div>
           <p className="intro">
-            <a className="highlight-link" target="_blank" href={Resume}>
-              Here's my resume.
-            </a>
-            <br />
             If you'd like to chat about anything, shoot me an email at
             <span className="email"> katehiga8@gmail.com</span>.
           </p>

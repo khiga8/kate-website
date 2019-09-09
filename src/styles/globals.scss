@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Josefin+Sans|Hind|Patrick+Hand+SC|PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito|Patrick+Hand+SC|PT+Serif");
 
 $blue: #00cffa;
 html,
@@ -7,14 +7,25 @@ body {
   margin: 0;
 }
 body {
-  font-family: "Hind", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
+}
+.things-i-like {
+  height: 150px;
+  width: 50%;
+  margin: 3em 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 h1 {
   font-size: 2em;
   letter-spacing: 0px;
   margin-bottom: 0;
+  .japanese-text {
+    font-size: 1em;
+  }
 }
 .about-me {
   color: $blue;
@@ -26,13 +37,12 @@ h2 {
   margin: 0;
 }
 
-
 .intro-text {
   margin-bottom: 30px;
 }
 
-.blog-text{
-  font-family: 'PT Serif', serif;
+.blog-text {
+  font-family: "PT Serif", serif;
   line-height: 1.5em;
 }
 h3 {
@@ -41,7 +51,7 @@ h3 {
   font-size: 1em;
 }
 
-.back{
+.back {
   text-decoration: none;
   font-weight: bold;
   color: $blue;
@@ -57,14 +67,14 @@ h3 {
   line-height: 1.5em;
 }
 
-.blog-section{
+.blog-section {
   display: block;
   margin: auto;
   width: 80%;
 }
-a.blog-link{
+a.blog-link {
   text-decoration: none;
-  color: #BA55D3;
+  color: #ba55d3;
 }
 .intro-section {
   display: block;
@@ -143,7 +153,6 @@ a.text-link:hover {
   font-family: "Josefin Sans", sans-serif;
 }
 
-
 @media screen and (max-width: 700px) {
   .portrait {
     &.gatsby-image-wrapper {
@@ -173,4 +182,4 @@ a.text-link:hover {
   .intro-section {
     width: 80%;
   }
-} //phone
+}
