@@ -22,12 +22,10 @@ const About = props => {
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
-          Hi, I'm Kate! I'm a software engineer excited by mission-driven
-          technology. My main interests lie in UI and web development.
-          Sometimes, I like to fiddle around with CSS and javascript and create
-          code illustrations! <br />
+          Hi, I'm Kate! I'm currently a full-stack engineer at Informed K12,
+          focused on solving operational challenges at school districts.
           <br />
-          Growing up in the Bay Area, I've become mindful of how technology and
+          Growing up in the Bay Area, I've become aware of how technology and
           the tech industry shapes our society, community, and lives. As I
           continue in this field, I strive to be mindful of the impact of my
           work and the choices I make. I enjoy working on mission-driven

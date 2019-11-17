@@ -16,6 +16,20 @@ const Now = props => {
       </Helmet>
       <Header />
       <section className="intro-section">
+        <h1>november</h1>
+        <ul>
+          <li>
+            Wrote my first&nbsp;
+            <a
+              className="highlight-link"
+              target="_blank"
+              href="https://tostring.informedk12.com/transitioning-from-a-large-company-to-a-25-person-startup-e59ea13cecb"
+            >
+              Medium Article&nbsp;
+            </a>
+            reflecting on transitioning from a big company to a startup.
+          </li>
+        </ul>
         <h1>july</h1>
         <ul>
           <li>
@@ -33,8 +47,6 @@ const Now = props => {
             </Link>
           </li>
         </ul>
-        <h1>june</h1>
-        <i> Whoops, nothing here...</i>
         <h1>may</h1>
         <ul>
           <li>

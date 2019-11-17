@@ -1,8 +1,5 @@
 import React from "react";
 import { Header } from "../components/Header.js";
-import { CoffeeDrink } from "../components/CoffeeDrink.js";
-import { Croissant } from "../components/Croissant.js";
-
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
 import { Link } from "gatsby";
@@ -20,13 +17,10 @@ const HomePage = () => {
         <div className="content">
           <div className="intro-text">
             <h1>Kate　Higa</h1>
+            <br />
             <h2>Software Engineer @Informed K12</h2>
             <br />
             <h3>Previously @IBM SVL, @UC Berkeley, @IBM BigFix, @Goodpatch.</h3>
-          </div>
-          <div className="things-i-like">
-            <CoffeeDrink className="card" />
-            <Croissant className="card" />
           </div>
           <div className="links">
             <ul>
@@ -57,12 +51,11 @@ const HomePage = () => {
                   Github
                 </a>
               </li>
-
               <li>
                 <a
                   className="text-link"
                   target="_blank"
-                  href="https://medium.com/@katehiga8"
+                  href="https://medium.com/@kate_h"
                 >
                   Medium
                 </a>
