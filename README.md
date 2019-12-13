@@ -1,5 +1,5 @@
 
-# Kate Higa Personal Website
+# Kate Higa Website
 ###
 You can check out my personal website here: https://katehiga.com/
 
