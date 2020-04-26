@@ -2,7 +2,6 @@ import React from "react";
 import { Header } from "../components/Header.js";
 import { Helmet } from "react-helmet";
 import favicon from "./favicon.png";
-import Layout from "../components/Layout.js";
 
 import { Link, graphql } from "gatsby";
 
@@ -16,7 +15,9 @@ const Now = props => {
       </Helmet>
       <Header />
       <section className="intro-section">
-        <h1>november</h1>
+        <h1>2020</h1>
+        <h1>2019 </h1>
+        <h2>november</h2>
         <ul>
           <li>
             Wrote my first&nbsp;
@@ -30,7 +31,7 @@ const Now = props => {
             reflecting on transitioning from a big company to a startup.
           </li>
         </ul>
-        <h1>july</h1>
+        <h2>july</h2>
         <ul>
           <li>
             Started my new role at Informed K12! If you're interested in hearing
@@ -47,7 +48,7 @@ const Now = props => {
             </Link>
           </li>
         </ul>
-        <h1>may</h1>
+        <h2>may</h2>
         <ul>
           <li>
             I attended another&nbsp;
@@ -65,7 +66,7 @@ const Now = props => {
           </li>
         </ul>
 
-        <h1>april </h1>
+        <h2>april </h2>
         <ul>
           <li>
             I attended the
@@ -82,7 +83,7 @@ const Now = props => {
             </Link>
           </li>
         </ul>
-        <h1>march</h1>
+        <h2>march</h2>
         <ul>
           <li>
             I attended a&nbsp;
@@ -153,7 +154,7 @@ const Now = props => {
             were more prevalent.
           </li>
         </ul>
-        <h1>feb</h1>
+        <h2>feb</h2>
         <ul>
           <li>
             I attended my first React.js&nbsp;
@@ -185,7 +186,7 @@ const Now = props => {
             almost done with Chapter 3.
           </li>
         </ul>
-        <h1>jan</h1>
+        <h2>jan</h2>
         <ul>
           <li>
             I discovered the Codepen community. I found a lot of front end

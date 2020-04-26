@@ -1,7 +1,7 @@
 
-# Kate Higa Website
+# Kate Higa
 ###
-You can check out my personal website here: https://katehiga.com/
+website here: https://katehiga.com/
 
 ## My website was created and deployed with:
 * [React.js](https://reactjs.org/) - a JavaScript library for building user interface

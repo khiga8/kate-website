@@ -24,8 +24,8 @@ export class Header extends React.Component {
               Kate
             </Link>
           </li>
-          <ListLink to="/now/">2019 Insights 💡</ListLink>
-          <ListLink to="/about/">about me 🙋🏻</ListLink>
+          <ListLink to="/now/">Insights 💡</ListLink>
+          <ListLink to="/about/">about me 🙆🏻‍♀️</ListLink>
         </ul>
       </div>
     );

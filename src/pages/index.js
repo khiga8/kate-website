@@ -16,11 +16,11 @@ const HomePage = () => {
       <section className="intro-section">
         <div className="content">
           <div className="intro-text">
-            <h1>Kate　Higa</h1>
+            <h1>Kate Higa</h1>
             <br />
-            <h2>Software Engineer @Informed K12</h2>
+            <h2>Software Engineer at Informed K12</h2>
             <br />
-            <h3>Previously @IBM SVL, @UC Berkeley, @IBM BigFix, @Goodpatch.</h3>
+            <h3>Previously at IBM SVL, UC Berkeley, IBM BigFix, Goodpatch.</h3>
           </div>
           <div className="links">
             <ul>
@@ -62,10 +62,6 @@ const HomePage = () => {
               </li>
             </ul>
           </div>
-          <p className="intro">
-            If you'd like to chat about anything, shoot me an email at
-            <span className="email"> katehiga8@gmail.com</span>.
-          </p>
         </div>
       </section>
     </div>

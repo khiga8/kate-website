@@ -14,25 +14,22 @@ const About = props => {
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
       <Header />
-      <Img
-        className="portrait"
-        fixed={props.data.imageOne.childImageSharp.fixed}
-        style={{ display: `block` }}
-      />
       <section className="intro-section about">
         <h1 className="about-me">about me</h1>
         <p className="intro">
-          Hi, I'm Kate! I'm currently a full-stack engineer at Informed K12,
-          focused on solving operational challenges at school districts.
+          Hi, I'm Kate! I'm a full-stack engineer at Informed K12.
+          We're focus on solving operational challenges at school districts!
           <br />
-          Growing up in the Bay Area, I've become aware of how technology and
-          the tech industry shapes our society, community, and lives. As I
-          continue in this field, I strive to be mindful of the impact of my
-          work and the choices I make. I enjoy working on mission-driven
-          technology and hope to leave a positive impact on society through my
-          everyday work!
           <br />
-          <br /> I carry a background in Cognitive Science, and love learning
+          Having spend most of my life in the Bay Area, I've become aware of the
+          influence that the tech industry and technology has on our lives and
+          society, both good and bad.
+          As I continue in this field, I strive to be mindful of the impact of my
+          work and the choices that I make. I am motivated by mission-driven
+          technology and hope to leave a positive impact through my everyday work.
+          <br />
+          <br />
+          I carry a background in Cognitive Science, and love learning
           about human psychology and behavior. You might find me listening to
           podcasts like
           <a
