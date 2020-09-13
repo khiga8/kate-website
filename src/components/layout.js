@@ -16,9 +16,7 @@ const Layout = ({ location, children }) => {
       <Navigation location={location}/>
       <main>{children}</main>
       <footer style={{marginBottom: rhythm(1 / 4)}}>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        © {new Date().getFullYear()}
       </footer>
     </div>
   )

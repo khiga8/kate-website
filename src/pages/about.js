@@ -26,6 +26,7 @@ const AboutPage = ({ location }) => {
   }
 `)
   const siteTitle = data.site.siteMetadata.title
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="About Kate" />
@@ -35,7 +36,6 @@ const AboutPage = ({ location }) => {
           fixed={data.avatar.childImageSharp.fixed}
           style={{
             marginRight: rhythm(1 / 2),
-            height: 250,
             minWidth: 200,
             borderRadius: `10%`,
           }}
@@ -43,18 +43,26 @@ const AboutPage = ({ location }) => {
       <section>
         <h1> Hi I'm Kate! </h1>
         <p>
-          I'm a fullstack engineer at <a href="https://www.informedk12.com">Informed K12, </a>
-          where we focus on helping school districts eliminate paperwork
+          I'm a fullstack engineer at <a href="https://www.informedk12.com">Informed K12</a>
+          , where we focus on helping school districts bring paperwork
+          processes online.
         </p>
         <p>
-          Currently I work primarily with Ruby on Rails. Previously I was a UI developer
-          working in React. Although I've always gravitated towards the front-end,
-          delving into Rails and working full-stack has been absolutely amazing.
-          I'm excited to keep learning and growing in all dimensions of software engineering.
+          In my day to day, I work primarily with Ruby on Rails. I gravitate towards
+          the frontend side of the stack but I'm always excited to explore new ideas
+          and deepen my knowledge in all areas of engineering. I have a love for learning
+          which is largely fueled by a desire to continuously improve the codebase,
+          end-user experiences, and ultimately make a positive social impact. I have
+          a background in Cognitive Science and am fascinated by the human mind.
+          I enjoy thinking about the intersection of computers and people.
         </p>
         <p>
-          Outside of coding, you can find me listening to podcasts, watercoloring,
-          and <a href="https://www.instagram.com/baketeito/?hl=en">baking.</a>
+          Outside of coding, you can find me listening to podcasts, watercoloring, and
+          <a href="https://www.instagram.com/baketeito/?hl=en"> baking!</a>
+        </p>
+        <p>
+          If you want to chat about career development, UI, working at a startup,
+          Ruby on Rails, accessibility...or even baking, feel free to reach out!
         </p>
       </section>
     </div>

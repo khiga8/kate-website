@@ -11,9 +11,6 @@ const Bio = () => {
           author {
             name
           }
-          social {
-            twitter
-          }
         }
       }
     }
@@ -32,7 +29,7 @@ const Bio = () => {
       <p>
         Software Engineer at Informed K12
         <br/>
-        👩🏻‍💻 Ruby on Rails, UI, Accessibility, Social Impact
+        👩🏻‍💻 Ruby on Rails, UI development, Social Impact
       </p>
     </div>
   )
