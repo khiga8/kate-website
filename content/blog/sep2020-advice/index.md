@@ -75,4 +75,4 @@ I hope this is helpful to anyone who is early in their career!
 
 ---
 
-Thank you for reading until the end! I'd love to hear any thoughts you have down below.
+Thank you for reading until the end!
