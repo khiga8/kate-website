@@ -13,7 +13,7 @@ Here are some that I've found extremely helpful in aiding my learning!
 
 ### Articles & Blog posts 📑:
 
-* [Intro to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/){:target="_blank"}
+* [Intro to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 
 Two from [Max Antonucci](https://dev.to/maxwell_dev) on DEV. I HIGHLY recommend his writing:
 
