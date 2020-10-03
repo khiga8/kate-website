@@ -5,6 +5,14 @@ date: '2020-10-03'
 ---
 [Originally posted on DEV](https://dev.to/kateh/beyond-writing-code-what-are-our-ethical-responsibilities-al7)
 
+Discuss:
+
+* How has tech shaped our society? Your life?
+* What ethical responsibilities do we have as software developers?
+* What are ways you keep yourself accountable in your day to day?
+
+****
+
 ## Today, it’s impossible to think of a world without any influence of code.
 
 I grew up in the age of rising social media. In 2009, I created my first social media account via Facebook. I was only in middle school.
@@ -13,9 +21,9 @@ I know. Middle school feels too early.
 
 Surprisingly though, most of my classmates were on Facebook and I simply didn't want to miss out. I still remember the initial feelings of wariness I had when first registering my profile. *Should I use a fake name? Should I even have my full name on the web? Is this safe?*
 
-I was cautious. But with an easy click of a button, I entered a new world and that wariness went away. Snapchat, Instagram, Twitter, LinkedIn... social media has become engrained into my life in various, evolving forms.
+I was cautious. But with an easy click of a button, I entered a new world and that wariness went away.
 
-Has there been a week that went by in the past twelve years where I didn't check some form of social media? Probably not.
+Snapchat, Instagram, Twitter, LinkedIn... has there been a week that went by in the past twelve years where I didn't check some form of social media? Probably not.
 
 *Thousands of hours of mindless scrolling since middle school. Damn.*
 
@@ -30,7 +38,9 @@ But there's a lot we ignore behind this convenience.
 
 ***
 
-In college, I took computer science courses. I studied Data Structures, Discrete Mathematics, Algorithms, Databases...I attended engineering career fairs. I remember packing into the auditorium with hundreds of other students. There were long lines before every booth just to chat with recruiters. Recruiters pitched fancy offices, free food perks, and appealed to bright-eyed students promising "interesting engineering problems". Never in my classes, nor these conversations with recruiters, did the ethics of software development, nor the potential consequences behind code come up.
+## Taking part in the creation
+
+In college, I took computer science courses. I studied Data Structures, Discrete Mathematics, Algorithms, Databases... I attended engineering career fairs. I remember packing into the auditorium with hundreds of other students. There were long lines before every booth just to chat with recruiters. Recruiters pitched fancy offices, free food perks, and appealed to bright-eyed students promising "interesting engineering problems". Never in my classes, nor these conversations with recruiters, did the ethics of software development, nor the potential consequences behind code come up.
 
 ### As software engineers, we are programmed to think about ways we can automate tasks with code.
 
@@ -45,9 +55,3 @@ What kind of society are we creating?
 ****
 
 Thanks for reading until the end. Ethics and the influence of tech and code is something I often think about. At the same time, I don't really know how to think about it... What are you thoughts?
-
-Discuss:
-
-* How has tech shaped our society? Your life?
-* What ethical responsibilities do we have as software developers?
-* What are ways you keep yourself accountable in your day to day?
