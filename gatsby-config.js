@@ -13,15 +13,15 @@ module.exports = {
             linkedin: ``
         },
         menuLinks: [{
-                name: 'home',
+                name: 'Home',
                 link: '/'
             },
             {
-                name: 'about',
+                name: 'About',
                 link: '/about'
             },
             {
-                name: 'blog',
+                name: 'Blog',
                 link: '/blog'
             }
         ]

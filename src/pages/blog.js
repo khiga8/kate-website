@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
                   to={node.fields.slug}
                   itemProp="url"
                 >
-                  <span itemProp="headline">{title}</span>
+                  <span itemProp="headline" style={{fontWeight: 400}}>{title}</span>
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>

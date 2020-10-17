@@ -14,7 +14,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Kate Higa" />
       <Bio />
-      <h2>latest musings</h2>
+      <h2>Latest musings</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
                   to={node.fields.slug}
                   itemProp="url"
                 >
-                  <span itemProp="headline">{title}</span>
+                  <span itemProp="headline" style={{fontWeight:400}}>{title}</span>
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
