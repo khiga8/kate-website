@@ -26,10 +26,10 @@ const Bio = () => {
       <h1>
         {author.name}
       </h1>
-      <p style={{fontSize: '30px', lineHeight: rhythm(1.5)}}>
+      <div style={{fontSize: '30px', lineHeight: rhythm(1.5)}}>
         Software Engineer at Informed K12
         <br/>
-        👩🏻‍💻 Ruby on Rails, UI development, Social Impact
+        Ruby on Rails, UI development, Social Impact
         <br/>
         <br/>
         <div>
@@ -40,7 +40,7 @@ const Bio = () => {
             <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://github.com/khiga8'>Github</a></span>
         </div>
 
-      </p>
+      </div>
     </div>
   )
 }
