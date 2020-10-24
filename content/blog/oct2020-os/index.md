@@ -2,6 +2,7 @@
 title: What *is* an Operating System?
 description: A simplified overview of operating systems
 date: '2020-10-11'
+tags: intro
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/eli5-what-is-an-operating-system-1082)

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import Tags from "../components/tags"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,6 +17,7 @@ const BlogIndex = ({ data, location }) => {
       <h2>Latest musings</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const tags = node.frontmatter.tags
         return (
           <article
             key={node.fields.slug}
@@ -38,6 +39,8 @@ const BlogIndex = ({ data, location }) => {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
+              {tags && tags.length > 0 ? ` - ` : ``}
+              <Tags>{tags}</Tags>
             </header>
             <section>
               <p
@@ -74,6 +77,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }

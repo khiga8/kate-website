@@ -2,6 +2,7 @@
 title: Lessons learned from a weekend wrestling CSS for a dropdown menu
 description: There's a good reason to use bootstrap and CSS frameworks
 date: '2020-09-27'
+tags: accessibility, css
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/lesson-learned-there-s-a-reason-for-bootstrap-and-other-css-frameworks-3fl1)

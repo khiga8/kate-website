@@ -26,13 +26,13 @@ const Bio = () => {
       <h1>
         {author.name}
       </h1>
-      <div style={{fontSize: '30px', lineHeight: rhythm(1.5)}}>
+      <div style={{fontSize: '20px', lineHeight: rhythm(1.5)}}>
         Software Engineer at Informed K12
         <br/>
         Ruby on Rails, UI development, Social Impact
         <br/>
         <br/>
-        <div>
+        <div style={{fontSize: '20px'}}>
             <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://dev.to/kateh'>DEV</a></span>
             <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://twitter.com/kate8pug'>Twitter</a></span>
             <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/kate-higa-2bab87108/'>LinkedIn</a></span>

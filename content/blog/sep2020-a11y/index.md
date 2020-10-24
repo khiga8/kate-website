@@ -2,6 +2,7 @@
 title: Awesome resources to learn more about accessibility 📚⚒️
 description: Resources I've found helpful so far to learn more about a11y
 date: '2020-09-15'
+tags: accessibility, resources
 ---
 [Originally posted on DEV](https://dev.to/kateh/awesome-resources-to-learn-more-about-accessibility-13of)
 

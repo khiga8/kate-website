@@ -2,6 +2,7 @@
 title: Reflecting on One Year after Graduation
 description: My time at Berkeley, working full time as an engineer, and finding fulfillment through work
 date: "2019-07-15"
+tags: career, reflection
 ---
 
 ## My time at Berkeley, working full time as an engineer, and finding fulfillment through work

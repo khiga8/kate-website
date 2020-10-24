@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Tags from "../components/tags"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -11,8 +12,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="blog" />
+      <h1> Latest Musings </h1>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const tags = node.frontmatter.tags
         return (
           <article
             key={node.fields.slug}
@@ -34,6 +37,8 @@ const BlogIndex = ({ data, location }) => {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
+              {tags && tags.length > 0 ? ` - ` : ``}
+              <Tags>{tags}</Tags>
             </header>
             <section>
               <p
@@ -70,6 +75,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }

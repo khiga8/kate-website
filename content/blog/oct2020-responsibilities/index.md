@@ -2,6 +2,7 @@
 title: What are our responsibilities as software developers beyond writing code? 🌎💻
 description: Today, it’s impossible to think of a world without any influence of code.
 date: '2020-10-03'
+tags: career, ethics
 ---
 [Originally posted on DEV](https://dev.to/kateh/beyond-writing-code-what-are-our-ethical-responsibilities-al7)
 

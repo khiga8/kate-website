@@ -2,6 +2,7 @@
 title: Advice to my past self and anyone experiencing self-doubt early in their career
 description: Reflecting on two years as a software engineer
 date: '2020-09-13'
+tags: career, reflection
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/advice-to-my-past-self-and-anyone-starting-their-career-1fmd)

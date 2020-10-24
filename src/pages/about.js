@@ -38,6 +38,7 @@ const AboutPage = ({ location }) => {
             marginRight: rhythm(1 / 2),
             minWidth: 200,
             borderRadius: `10%`,
+            float: 'right'
           }}
        />
       <section>

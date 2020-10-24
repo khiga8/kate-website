@@ -2,6 +2,7 @@
 title: Intro to Keyboard A11y – An (interactive) guide to Tab & Tabindex 🗂⌨️🗺
 description: Digging into tab navigation and tabindex
 date: '2020-09-19'
+tags: accessibility, css, intro
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/introduction-to-tab-navigation-and-the-3-tabindex-4m3m)

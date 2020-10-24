@@ -1,8 +1,8 @@
 import Typography from "typography"
-import Moraga from "typography-theme-moraga"
+import OceanBeach from "typography-theme-ocean-beach"
 
 
-const typography = new Typography(Moraga)
+const typography = new Typography(OceanBeach)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

@@ -1,7 +1,8 @@
 ---
 title: Podcasts are GAMECHANGING for learning! 🗣💻🎧
-description:
+description: Listening to podcasts have expanded my world of software engineering in a strange way.
 date: '2020-10-19'
+tags: career, other
 ---
 [Originally posted on DEV](https://dev.to/kateh/why-i-love-podcasts-4a4d)
 

@@ -3,6 +3,7 @@ title: Women Who Code Connect 2019
 description: My first time at WWC Connect.
 date: '2019-04-20'
 image: director.png
+tags: other
 ---
 
 ## My first time at WWC Connect.

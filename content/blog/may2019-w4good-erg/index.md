@@ -3,6 +3,7 @@ title: Cultivating Diversity and Inclusion in Tech
 description: I attended a panel hosted by Women4Good
 date: '2019-05-23'
 image: panel.png
+tags: other
 ---
 
 ## I attended a panel on Diversity and Inclusion hosted by Women4Good.

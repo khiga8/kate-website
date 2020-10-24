@@ -2,6 +2,7 @@
 title: Transitioning from a large company to a 25 person startup
 description: An engineer’s observations on people, process, and purpose
 date: '2019-11-14'
+tags: career, reflection
 ---
 
 ## An engineer’s observations on people, process, and purpose
