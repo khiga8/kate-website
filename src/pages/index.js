@@ -1,58 +1,36 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Tags from "../components/tags"
-import Bio from "../components/bio"
+import Blogs from "../components/blogs"
+import Notes from "../components/notes"
+import SocialLinks from "../components/social-links"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const blogs = data.blogs.edges
+  const notes = data.notes.edges
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Kate Higa" />
-      <Bio />
-      <h2>Latest musings</h2>
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        const tags = node.frontmatter.tags
-        return (
-          <article
-            key={node.fields.slug}
-            itemScope
-            itemType="http://schema.org/Article"
-          >
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link
-                  style={{ boxShadow: `none`, color: '#bd70ba' }}
-                  to={node.fields.slug}
-                  itemProp="url"
-                >
-                  <span itemProp="headline" style={{fontWeight:400}}>{title}</span>
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              {tags && tags.length > 0 ? ` - ` : ``}
-              <Tags>{tags}</Tags>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-                itemProp="description"
-              />
-            </section>
-          </article>
-        )
-      })}
+      <h1> hi, I'm Kate. </h1>
+      <ul>
+        <li> software engineer at Informed K12</li>
+        <li> based in the Bay Area</li>
+        <li> focused on Ruby on Rails, building UI, Social Impact, a11y</li>
+      </ul>
+      <p> I like to write from time-to-time as a way to look back on my experiences and
+        learnings! Feel free to lurk around.
+      </p>
+      <SocialLinks />
+      <h2>Recent blog</h2>
+      <Blogs blogs={blogs} />
+      <Link style={{float: 'right'}} to='/blog'>more blog posts</Link>
+      <h2>Recent note</h2>
+      <Notes notes={notes} />
+      <Link style={{float: 'right'}} to='/notes'>more notes</Link>
     </Layout>
   )
 }
@@ -66,7 +44,11 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    blogs: allMarkdownRemark(
+      limit: 1
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fileAbsolutePath: {regex: "/(blog)/"}}
+      ) {
       edges {
         node {
           excerpt
@@ -78,6 +60,24 @@ export const pageQuery = graphql`
             title
             description
             tags
+          }
+        }
+      }
+    }
+    notes: allMarkdownRemark(
+      limit: 1
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fileAbsolutePath: {regex: "/(notes)/"}}
+      ) {
+      edges {
+        node {
+          excerpt
+          html
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

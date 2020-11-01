@@ -2,24 +2,24 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Blogs from "../components/blogs"
+import Notes from "../components/notes"
 
-const BlogIndex = ({ data, location }) => {
+const NotesIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const blogs = data.allMarkdownRemark.edges
+  const notes = data.allMarkdownRemark.edges
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="blog" />
-      <h1> Blog </h1>
-      <Blogs blogs={blogs}/>
+      <SEO title="notes" />
+      <h1> Notes </h1>
+      <Notes notes={notes} />
     </Layout>
   )
 }
 
-export default BlogIndex
+export default NotesIndex
 
-export const pageQuery = graphql`
+export const notesQuery = graphql`
   query {
     site {
       siteMetadata {
@@ -28,7 +28,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: {fileAbsolutePath: {regex: "/blog/"}}
+      filter: {fileAbsolutePath: {regex: "/(notes)/"}}
       ) {
       edges {
         node {
@@ -36,6 +36,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

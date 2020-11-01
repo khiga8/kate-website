@@ -42,9 +42,9 @@ const AboutPage = ({ location }) => {
           }}
        />
       <section>
-        <h1> Hi there! </h1>
+        <h1> About me </h1>
         <p>
-          I'm  Kate. Currently I work as a fullstack engineer at <a href="https://www.informedk12.com">Informed K12</a>
+          Currently I work as a fullstack engineer at <a href="https://www.informedk12.com">Informed K12</a>
           , where we focus on helping school districts bring paperwork
           processes online.
         </p>

@@ -23,6 +23,10 @@ module.exports = {
             {
                 name: 'Blog',
                 link: '/blog'
+            },
+            {
+                name: 'Notes',
+                link: '/notes'
             }
         ]
     },
@@ -40,6 +44,13 @@ module.exports = {
             options: {
                 path: `${__dirname}/content/assets`,
                 name: `assets`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/content/notes`,
+                name: `notes`,
             },
         },
         {
