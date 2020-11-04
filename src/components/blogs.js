@@ -31,7 +31,7 @@ const Blogs = ({ blogs }) => {
           </header>
 
           <section>
-            <p
+            <div
               dangerouslySetInnerHTML={{
                 __html: node.frontmatter.description || node.excerpt,
               }}

@@ -10,7 +10,7 @@ const Notes = ({ notes }) => {
       >
         <section>
           <small>{node.frontmatter.date}</small>
-          <p
+          <div
             dangerouslySetInnerHTML={{
               __html: node.html,
             }}
