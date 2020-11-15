@@ -1,4 +1,5 @@
 import React from 'react'
+import { rhythm } from "../utils/typography"
 
 const Notes = ({ notes }) => {
   return (
@@ -9,7 +10,7 @@ const Notes = ({ notes }) => {
         itemType="http://schema.org/Article"
       >
         <section>
-          <small>{node.frontmatter.date}</small>
+          <div style={{fontWeight: 'bold', fontSize: '25px'}}>{node.frontmatter.date}</div>
           <div
             dangerouslySetInnerHTML={{
               __html: node.html,
