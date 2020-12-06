@@ -4,10 +4,11 @@ import { rhythm } from "../utils/typography"
 const Tags = ({ children }) => {
   const tag_map = {
     'accessibility': '#f69e7b',
-    'ethics': '#df6a6a',
+    'ethics': 'rgb(228 179 77)',
     'intro': '#acdeaa',
     'career': '#99e1e5',
     'reflection': '#516091',
+    'ruby': '#df6a6a',
     'other': '#bd70ba'
   }
 
