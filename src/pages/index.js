@@ -15,14 +15,14 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Kate Higa" />
-      <h1> hi, I'm Kate. </h1>
-      <ul>
-        <li> software engineer at Informed K12</li>
-        <li> based in the Bay Area</li>
-        <li> focused on Ruby on Rails, building UI, Social Impact, a11y</li>
-      </ul>
-      <p> I like to write from time-to-time as a way to look back on my experiences and
-        learnings! Feel free to lurk around.
+      <h1> Hi, I'm Kate. </h1>
+      <p>
+        I'm a software developer currently focused on Ruby on Rails and a11y.
+        <br/>
+        <br/>
+        I love to write from time-to-time as a way to look back on my experiences and
+        learnings. <br/>
+        Feel free to lurk around!
       </p>
       <SocialLinks />
       <h2>Recent blog</h2>
