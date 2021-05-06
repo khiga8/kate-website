@@ -28,7 +28,7 @@
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "typography-theme-elk-glen": "^0.16.19"
+    "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.1.1"
