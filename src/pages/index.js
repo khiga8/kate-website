@@ -22,8 +22,8 @@ const BlogIndex = ({ data, location }) => {
         I'm currently at GitHub where I am focused on accessibility.
         <br/><br/>
         I have a background in Cognitive Science and am fascinated by the human mind.
-        I am a first-generation Japanese American and also speak Japanese.
-        On the weekends, I love visiting bakeries in the area, <a href="https://www.instagram.com/baketeito/?hl=en">baking,</a> 
+        I am a first-generation Japanese American and am fluent in English and Japanese.
+        On the weekends, I love visiting bakeries in the area, <a href="https://www.instagram.com/baketeito/?hl=en">baking</a>, 
         and unwinding with my dog, Tagé.
       </p>
       <SocialLinks />
