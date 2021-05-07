@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="blog" />
       <h1> Blog </h1>
-      <Blogs blogs={blogs}/>
+      <Blogs blogs={blogs} heading={"h2"}/>
     </Layout>
   )
 }

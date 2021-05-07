@@ -10,7 +10,7 @@ const SocialLinks = () => {
           <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://twitter.com/kate8pug'>Twitter</a></span>
           <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/kate-higa-2bab87108/'>LinkedIn</a></span>
           <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://codepen.io/khiga8'>Codepen</a></span>
-          <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://github.com/khiga8'>Github</a></span>
+          <span style={{marginRight: rhythm(1)}}><a target='_blank' rel='noreferrer' href='https://github.com/khiga8'>GitHub</a></span>
       </div>
   )
 }

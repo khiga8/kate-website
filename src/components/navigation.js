@@ -30,10 +30,7 @@ const Navigation = ({ location }) => {
             }}
           >
             <Link
-            style={{
-              color: location.pathname === link.link ? '#bd70ba' : '#545454'
-            }}
-            to={link.link}>
+              to={link.link}>
               {link.name}
             </Link>
           </li>

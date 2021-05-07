@@ -9,13 +9,14 @@ const Notes = ({ notes }) => {
         itemType="http://schema.org/Article"
       >
         <section>
-          <div style={{fontWeight: 'bold', fontSize: '25px'}}>{node.frontmatter.date}</div>
+          <small>{node.frontmatter.date}</small>
           <div
             dangerouslySetInnerHTML={{
               __html: node.html,
             }}
           />
         </section>
+        <hr/>
       </article>
       )
     )

@@ -3,7 +3,8 @@ import { rhythm } from "../utils/typography"
 import Tags from "../components/tags"
 import { Link } from "gatsby"
 
-const Blogs = ({ blogs }) => {
+const Blogs = ({ blogs, heading }) => {
+  const Tag = heading;
   return (
     blogs.map(({ node }) => (
         <article
@@ -12,19 +13,18 @@ const Blogs = ({ blogs }) => {
           itemType="http://schema.org/Article"
         >
           <header>
-            <h3
+            <Tag
               style={{
                 marginBottom: rhythm(1 / 4),
               }}
             >
               <Link
-                style={{ boxShadow: `none`, color: '#bd70ba' }}
                 to={node.fields.slug}
                 itemProp="url"
               >
                 <span itemProp="headline" style={{fontWeight:400}}>{node.frontmatter.title || node.fields.slug}</span>
               </Link>
-            </h3>
+            </Tag>
             <small>{node.frontmatter.date}</small>
             {node.frontmatter.tags && node.frontmatter.tags.length > 0 ? ` - ` : ``}
             <Tags>{node.frontmatter.tags}</Tags>

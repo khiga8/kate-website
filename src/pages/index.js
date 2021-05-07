@@ -15,19 +15,21 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Kate Higa" />
-      <h1> Hi, I'm Kate. </h1>
+      <h1> Kate Higa</h1>
       <p>
-        I'm a software developer currently focused on Ruby on Rails and a11y.
-        <br/>
-        <br/>
-        I love to write from time-to-time as a way to look back on my experiences and
-        learnings. <br/>
-        Feel free to lurk around!
+
+        I am a software engineer interested in the intersection of people and technology.
+        I'm currently at GitHub where I am focused on accessibility.
+        <br/><br/>
+        I have a background in Cognitive Science and am fascinated by the human mind.
+        I am a first-generation Japanese American and also speak Japanese.
+        On the weekends, I love visiting bakeries in the area, <a href="https://www.instagram.com/baketeito/?hl=en">baking,</a> 
+        and unwinding with my dog, Tagé.
       </p>
       <SocialLinks />
       <h2>Recent blog</h2>
-      <Blogs blogs={blogs} />
-      <Link style={{float: 'right'}} to='/blog'>more blog posts</Link>
+      <Blogs blogs={blogs} heading={"h3"}/>
+    <Link style={{float: 'right'}} to='/blog'>more blog posts</Link>
       <h2>Recent note</h2>
       <Notes notes={notes} />
       <Link style={{float: 'right'}} to='/notes'>more notes</Link>
