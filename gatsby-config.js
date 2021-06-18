@@ -8,7 +8,7 @@ module.exports = {
         description: `Kate's Personal Website.`,
         siteUrl: `https://katehiga.com/`,
         social: {
-            twitter: `kate8pug`,
+            twitter: `kate8keito`,
             github: `khiga8`,
             linkedin: ``
         },
