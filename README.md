@@ -1,5 +1,7 @@
 <h1 align="center">
-  Kate's Personal Website
+  katehiga.com
 </h1>
+
+khiga8's personal website
 
 
