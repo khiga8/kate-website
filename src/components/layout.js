@@ -14,9 +14,13 @@ const Layout = ({ location, children }) => {
       }}
     >
       <Navigation location={location}/>
-      <main>{children}</main>
-      <footer style={{marginBottom: rhythm(1 / 4)}}>
-        © {new Date().getFullYear()}
+      <main style={{marginBottom: rhythm(1 / 2)}}>{children}</main>
+      <footer style={{
+        marginBottom: rhythm(1 / 4), 
+        fontSize: '0.8em'
+        }}
+        >
+        © 2019-{new Date().getFullYear()}
       </footer>
     </div>
   )

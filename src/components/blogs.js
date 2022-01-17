@@ -3,7 +3,7 @@ import { rhythm } from "../utils/typography"
 import Tags from "../components/tags"
 import { Link } from "gatsby"
 
-const Blogs = ({ blogs, heading }) => {
+const Blogs = ({ blogs, heading, showDescription=true }) => {
   const Tag = heading;
   return (
     blogs.map(({ node }) => (
@@ -11,6 +11,9 @@ const Blogs = ({ blogs, heading }) => {
           key={node.fields.slug}
           itemScope
           itemType="http://schema.org/Article"
+          style={{
+            marginBottom: rhythm(1),
+          }}
         >
           <header>
             <Tag
@@ -29,15 +32,14 @@ const Blogs = ({ blogs, heading }) => {
             {node.frontmatter.tags && node.frontmatter.tags.length > 0 ? ` - ` : ``}
             <Tags>{node.frontmatter.tags}</Tags>
           </header>
-
-          <section>
+          { showDescription && <section>
             <div
               dangerouslySetInnerHTML={{
                 __html: node.frontmatter.description || node.excerpt,
               }}
               itemProp="description"
             />
-          </section>
+          </section> }
         </article>
       )
     )

@@ -6,6 +6,7 @@ import SocialLinks from "../components/social-links"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -17,22 +18,23 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="Kate Higa" />
       <h1> Kate Higa</h1>
       <p>
-
-        I am a software engineer interested in the intersection of people and technology.
-        I'm currently at GitHub where I am focused on accessibility.
-        <br/><br/>
+        I am a software engineer who enjoys working at the intersection of people and technology.
+        I currently work at GitHub as part of the Accessibility team.
+      </p>
+      <p>
         I have a background in Cognitive Science and am fascinated by the human mind.
         I am a Japanese American fluent in English and Japanese.
         On the weekends, I love visiting bakeries in the area, baking, 
         and unwinding with my dog, Tagé.
       </p>
+      <p>
+        I like to write casually mostly as a way to reflect and retain my thoughts and learnings.
+      </p>
       <SocialLinks />
-      <h2>Recent blog</h2>
-      <Blogs blogs={blogs} heading={"h3"}/>
-    <Link style={{float: 'right'}} to='/blog'>more blog posts</Link>
-      <h2>Recent note</h2>
-      <Notes notes={notes} />
-      <Link style={{float: 'right'}} to='/notes'>more notes</Link>
+      <section style={{marginTop: rhythm(1)}} >
+        <h2>Recent writing</h2>
+        <Blogs blogs={blogs} showDescription={false} heading={"h3"}/>
+      </section>
     </Layout>
   )
 }

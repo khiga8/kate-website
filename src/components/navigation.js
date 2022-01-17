@@ -19,7 +19,7 @@ const Navigation = ({ location }) => {
   const { menuLinks } = data.site.siteMetadata
 
   return (
-    <nav>
+    <nav aria-label="Main">
       <ul style={{ display: "flex", flex: 1 }}>
       { menuLinks.map(link => (
           <li
