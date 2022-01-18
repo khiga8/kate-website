@@ -31,10 +31,10 @@ const BlogIndex = ({ data, location }) => {
         I like to write casually mostly as a way to reflect and retain my thoughts and learnings.
       </p>
       <SocialLinks />
-      <section style={{marginTop: rhythm(1)}} >
+      {/* <section style={{marginTop: rhythm(1)}} >
         <h2>Recent writing</h2>
         <Blogs blogs={blogs} showDescription={false} heading={"h3"}/>
-      </section>
+      </section> */}
     </Layout>
   )
 }
