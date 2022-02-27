@@ -30,7 +30,7 @@ I attended the following sessions:
 
 *Pheeeeew...* as you can probably tell, you have the opportunity to attend a good number of speaker sessions on a wide range of topics! The talks I attended were only a small portion of the talks that took place. To be a speaker at this conference, one has to submit a talk and get selected. And... all these women were incredible!!! I learned SO MUCH. I ended the day exhausted but extremely excited with new ideas and new knowledge I gained.
 
-<img src="./app.png" />
+<img alt="Screenshot of conference schedule displayed on WWC mobile app" src="./app.png" />
 
  One incredible thing that WWC did was create a beautiful mobile app to supplement the day. They had attendees download a mobile app which listed the various events and speakers. The app also had a live twitter feed and a map to help attendees navigate to the different conference rooms. Major props to whoever made this beautiful app! It really made the experience of navigating through the day smoother.
 
