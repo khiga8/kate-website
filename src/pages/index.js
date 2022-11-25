@@ -1,17 +1,12 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import Blogs from "../components/blogs"
-import Notes from "../components/notes"
+import { graphql } from "gatsby"
 import SocialLinks from "../components/social-links"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const blogs = data.blogs.edges
-  const notes = data.notes.edges
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -31,10 +26,6 @@ const BlogIndex = ({ data, location }) => {
         I like to write casually mostly as a way to reflect and retain my thoughts and learnings.
       </p>
       <SocialLinks />
-      {/* <section style={{marginTop: rhythm(1)}} >
-        <h2>Recent writing</h2>
-        <Blogs blogs={blogs} showDescription={false} heading={"h3"}/>
-      </section> */}
     </Layout>
   )
 }
