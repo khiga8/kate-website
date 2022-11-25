@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
+  </head>
+  <body>
+    {%- include header.html -%}
+    <main>
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+
+</html>
