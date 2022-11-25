@@ -1,18 +1,19 @@
 ---
 title: What are our responsibilities as software developers beyond writing code? 🌎💻
 description: Today, it’s impossible to think of a world without any influence of code.
-date: '2020-10-03'
+date: "2020-10-03"
 tags: career, ethics
 ---
+
 [Originally posted on DEV](https://dev.to/kateh/beyond-writing-code-what-are-our-ethical-responsibilities-al7)
 
 Discuss:
 
-* How has tech shaped our society? Your life?
-* What ethical responsibilities do we have as software developers?
-* What are ways you keep yourself accountable in your day to day?
+- How has tech shaped our society? Your life?
+- What ethical responsibilities do we have as software developers?
+- What are ways you keep yourself accountable in your day to day?
 
-****
+---
 
 ## Today, it’s impossible to think of a world without any influence of code.
 
@@ -20,13 +21,13 @@ I grew up in the age of rising social media. In 2009, I created my first social 
 
 I know. Middle school feels too early.
 
-Surprisingly though, most of my classmates were on Facebook and I simply didn't want to miss out. I still remember the initial feelings of wariness I had when first registering my profile. *Should I use a fake name? Should I even have my full name on the web? Is this safe?*
+Surprisingly though, most of my classmates were on Facebook and I simply didn't want to miss out. I still remember the initial feelings of wariness I had when first registering my profile. _Should I use a fake name? Should I even have my full name on the web? Is this safe?_
 
 I was cautious. But with an easy click of a button, I entered a new world and that wariness went away.
 
 Snapchat, Instagram, Twitter, LinkedIn... has there been a week that went by in the past twelve years where I didn't check some form of social media? Probably not.
 
-*Thousands of hours of mindless scrolling since middle school. Damn.*
+_Thousands of hours of mindless scrolling since middle school. Damn._
 
 ### Nothing is black and white.
 
@@ -36,8 +37,7 @@ I've increasingly relied on the convenience provided by companies like Uber, Lyf
 
 But there's a lot we ignore behind this convenience.
 
-
-***
+---
 
 ## Taking part in the creation
 
@@ -53,6 +53,6 @@ If we churn out code without ever stopping to think about the higher-level impli
 
 What kind of society are we creating?
 
-****
+---
 
 Thanks for reading until the end. Ethics and the influence of tech and code is something I often think about. At the same time, I don't really know how to think about it... What are you thoughts?

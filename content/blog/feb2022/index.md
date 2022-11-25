@@ -12,6 +12,6 @@ If users don't know that a feature to make their content more accessible exists 
 
 Given that the majority of users of these content-sharing sites don't come from a background in tech or web dev or acccessibilty, it seems like the responsibility of fostering accessibility awareness and encouraging accessible content-sharing falls on the shoulders of tech companies and the choices they make in product design.
 
-What would it look like for a content-sharing site to put accessibilty at forefront? 
+What would it look like for a content-sharing site to put accessibilty at forefront?
 
 Tangentially, I really enjoyed this article on alt text that NYT came out with this month: [The Hidden Image Descriptions Making the Internet Accessible](https://www.nytimes.com/interactive/2022/02/18/arts/alt-text-images-descriptions.html).

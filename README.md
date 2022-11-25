@@ -3,5 +3,3 @@
 </h1>
 
 khiga8's personal website
-
-

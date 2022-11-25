@@ -1,28 +1,29 @@
 ---
 title: Intro to Keyboard A11y – An (interactive) guide to Tab & Tabindex 🗂⌨️🗺
 description: Digging into tab navigation and tabindex
-date: '2020-09-19'
+date: "2020-09-19"
 tags: accessibility, css, intro
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/introduction-to-tab-navigation-and-the-3-tabindex-4m3m)
 
-*******
-*Note: You will want to skip the "interactive" portions of this guide if you are on a mobile device.*
+---
 
-*******
+_Note: You will want to skip the "interactive" portions of this guide if you are on a mobile device._
 
-Developers are all about keyboard shortcuts! Being savvy with the keyboard helps us be more effective, and honestly just feels pretty cool... But today, I want to deep-dive into keyboard navigation in the context of *accessibility*.
+---
+
+Developers are all about keyboard shortcuts! Being savvy with the keyboard helps us be more effective, and honestly just feels pretty cool... But today, I want to deep-dive into keyboard navigation in the context of _accessibility_.
 
 Many different people rely on keyboard navigation as a sole means for navigation for any number of reasons. It's important that a web page is 100% accessible with a keyboard.
 
 In particular, the **tab** key plays a critical role in allowing a keyboard user to navigate through a page.
 
-* **tab** - focus on the next element
+- **tab** - focus on the next element
 
-* **shift+tab** - focus on the previous element
+- **shift+tab** - focus on the previous element
 
-If you're unfamiliar with tab navigation, you're not alone! Personally, I had no idea what tab navigation was until very recently. If you've never tried tab navigation, take a moment **right now** to press the tab key a few times, and try navigating around this current web page! *See you in a bit!*
+If you're unfamiliar with tab navigation, you're not alone! Personally, I had no idea what tab navigation was until very recently. If you've never tried tab navigation, take a moment **right now** to press the tab key a few times, and try navigating around this current web page! _See you in a bit!_
 
 👋
 
@@ -32,7 +33,7 @@ Welcome back! Did you get the chance to tab around?
 
 You might have noticed your focus first jumped to the very top left of this page. Then as you pressed the tab key, the focus should have moved in a somewhat **logical** order from left to right, top to bottom.
 
-* Remember, an accessible page has a logical tab order.
+- Remember, an accessible page has a logical tab order.
 
 Can you imagine how frustrating it would be if the the focus jumped around the page in some arbitrary order? That confusion would be amplified for people who rely on a screen reader to announce where they are within a page. As an exercise, you can try tabbing around [this terribly inaccessible web page](https://www.w3.org/WAI/demos/bad/before/home.html).
 
@@ -42,8 +43,8 @@ The good news is, HTML has built-in tab focus behavior so we usually don't need 
 
 By default,
 
-* Tab navigation follows the logical order of elements in the DOM.
-* Interactive HTML elements such as form inputs, links, and buttons are included in tab order, while non-interactive elements such as divs and paragraph tags are excluded.
+- Tab navigation follows the logical order of elements in the DOM.
+- Interactive HTML elements such as form inputs, links, and buttons are included in tab order, while non-interactive elements such as divs and paragraph tags are excluded.
 
 ## What is tabindex?
 
@@ -64,7 +65,7 @@ Confused? See it in action:
 
 Tabindex 0 could come in handy if you have a custom interactive element that is not natively focusable. An example may be a `<div />` element that, for whatever reason, needs to act as a button. (Ideally though, you should use the `<button />` tag but if for whatever reason, you cannot, you can mimic the native tab behavior of a button by setting the tabindex).
 
-*Do you know of other usecases for tabindex 0? Let me know down below!*
+_Do you know of other usecases for tabindex 0? Let me know down below!_
 
 ## tabindex negative
 
@@ -81,7 +82,7 @@ Confused? See the negative tabindex in action:
 
 A negative tabindex can be helpful for something like a modal which is usually inside a `<div/>` element. We can prevent a keyboard user from focusing on a hidden modal by setting the tabindex to -1. However, when the modal is shown, a programmatic focus can be set using javascript to allow the user to interact with the modal!
 
-*Do you know of other usecases for negative tabindex? Let me know down below!*
+_Do you know of other usecases for negative tabindex? Let me know down below!_
 
 ## tabindex positive
 
@@ -98,22 +99,21 @@ Confused? See what I mean:
 
 I haven't actually encountered a valid usecase for setting a positive tabindex... All guides I've encountered list it as something you should never do. 🤷🏻‍♀️
 
-*Do you have a valid usecase for positive tabindex? Let me know down below!*
+_Do you have a valid usecase for positive tabindex? Let me know down below!_
 
 ## To wrap it up..
 
-* Tab navigation is essential for keyboard users.
-* Tab order must be logical.
-* Using the correct HTML tag usually takes care of most tab order concerns.
-* You can set tabindex to 0, a negative number, or a positive number, to override the tab behavior for any element.
+- Tab navigation is essential for keyboard users.
+- Tab order must be logical.
+- Using the correct HTML tag usually takes care of most tab order concerns.
+- You can set tabindex to 0, a negative number, or a positive number, to override the tab behavior for any element.
 
 I found these resources extremely helpful!
 
-* [WebAIM](https://webaim.org/techniques/keyboard/tabindex)
-* [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
-* [Google Web Fundamentals](https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex)
+- [WebAIM](https://webaim.org/techniques/keyboard/tabindex)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
+- [Google Web Fundamentals](https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex)
 
-****
+---
 
 Thanks for reading until the end. Is there anything else I should know or anything I didn't get quite right? If you have any thoughts or comments, let me know!
-

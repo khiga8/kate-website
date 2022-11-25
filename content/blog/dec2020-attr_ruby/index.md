@@ -1,6 +1,6 @@
 ---
 title: Understanding attr methods in Ruby
-date: '2020-12-05'
+date: "2020-12-05"
 tags: ruby
 ---
 
@@ -9,9 +9,11 @@ If you've worked with Ruby, you've likely encounter **attr** methods such as `at
 To truly understand what each of these `attr` methods are and how to use them, we must understand the very basics of how data is stored and accessed in a Ruby class!
 
 ## How is data stored and access in a Ruby class?
+
 Let’s say we’re creating a Ruby on Rails web app for a veterinary hospital 😸🐶. We want to store information about each dog patient. To start with, we will need a `Dog` class that stores `name`.
 
 In Ruby, this class may look something like the following:
+
 ```ruby
   class Dog
     def initialize(name)
@@ -32,6 +34,7 @@ Even outside of a Rails-y context, instance variables are used to store data for
 #### An instance variable can be accessed by any method within the class.
 
 **Here's an Example:**
+
 ```ruby
   class Dog
     def initialize(name)
@@ -48,6 +51,7 @@ The catch here is that instance variables are accessible by any method within a 
 NOT accessible outside the class.
 
 **If instantiate a `Dog` instance and try to call `.name`, we get a `NoMethodError`:**
+
 ```ruby
 dog = Dog.new('Tomi')
 #=> <Dog:0x00007fb72cd0aa30 @name="Tomi">
@@ -73,7 +77,7 @@ Let's define a simple method that returns `@name`.
   end
 ```
 
- Now we are able to access the value of `@name` by calling the name method!
+Now we are able to access the value of `@name` by calling the name method!
 
 ```ruby
 dog = Dog.new('Tomi')
@@ -82,11 +86,13 @@ dog.name
 ```
 
 This simple `name` method we just defined is what we call a **getter** method.
+
 ### A getter method returns the value of an instance variable.
 
-In the previous example, we had the `name` method simply return `@name`. However, if you wanted  `@name` to be returned in a certain format, you can easily achieve that by customizing your getter method.
+In the previous example, we had the `name` method simply return `@name`. However, if you wanted `@name` to be returned in a certain format, you can easily achieve that by customizing your getter method.
 
 Let's write a custom getter method that returns `dog.name` in all caps:
+
 ```ruby
   class Dog
     def initialize(name)
@@ -98,6 +104,7 @@ Let's write a custom getter method that returns `dog.name` in all caps:
     end
   end
 ```
+
 ```ruby
 dog = Dog.new('Tomi')
 #=> #<Dog:0x00007fb7475df010 @name="Tomi">
@@ -109,6 +116,7 @@ Notice that here, `@name` itself is not modified. We’ve simply defined a metho
 
 Say we initialize a `Dog` instance but realize we have made a typo! If we try to reset `name`, we'll get a
 `NoMethodError`:
+
 ```ruby
 dog = Dog.new('Tomu') # Whoops!
 dog.name = 'Tomi'
@@ -121,6 +129,7 @@ to change it later.
 We need a **setter method**!
 
 ### A setter method sets the value of an instance variable.
+
 Let's create a setter method that allows us to change the name attribute:
 
 ```ruby
@@ -162,6 +171,7 @@ You might've heard of Ruby as a very developer-friendly language. Aside from bei
 ### `attr_accessor` provides a shorthand way to define getter and setter methods for specified attributes.
 
 Desired attributes are passed in to `attr` methods as a symbol:
+
 ```ruby
   class Dog
 
@@ -180,9 +190,9 @@ With a single `attr_accessor :name, :breed, :age` line, we were able to define s
 
 `attr_accessor` combines `attr_reader` and `attr_writer`. If you only want to shorthand a getter method, you can use `attr_reader`. If you want to shorthand a writer method, you can use `attr_writer`.
 
-* `attr_accessor` - creates a getter and setter method
-* `attr_reader` - creates a getter method only
-* `attr_writer` - creates a setter method only
+- `attr_accessor` - creates a getter and setter method
+- `attr_reader` - creates a getter method only
+- `attr_writer` - creates a setter method only
 
 It might make sense to use `attr_reader` or `attr_writer` in situations where we want to customize one method, but not the other.
 
@@ -207,6 +217,7 @@ It might make sense to use `attr_reader` or `attr_writer` in situations where we
 
   end
 ```
+
 ```ruby
 dog = Dog.new('Tomi', 'pug', 2)
 #=> #<Dog:0x00007fb72debcdf0 @age=2, @breed="pug", @name="Tomi">
@@ -216,8 +227,8 @@ dog
 #=> #<Dog:0x00007fb72debcdf0 @age=2, @breed="pug", @name="Tomi">
 ```
 
-
 ### Example: We want `@age` to always be set in a certain format.
+
 ```ruby
 
   class Dog
@@ -238,6 +249,7 @@ dog
 
   end
 ```
+
 ```ruby
 dog = Dog.new('Tomi', 'pug', 2)
 #=> #<Dog:0x00007fb73383efe0 @age="Age 2", @breed="pug", @name="Tomi">
@@ -247,11 +259,10 @@ dog
 #=> #<Dog:0x00007fb73383efe0 @age="Age 3", @breed="pug", @name="Tomi">
 ```
 
-
 ## Conclusion
 
-* Instance variables hold data in a Ruby class instance.
-* Instance variables can only be directly accessed within a Ruby class.
-* To access an instance variable outside of a Ruby class, we must define methods.
-* `attr_reader`, `attr_writer`, and `attr_accessor` are convenient shorthands for writing
-getter and setter methods.
+- Instance variables hold data in a Ruby class instance.
+- Instance variables can only be directly accessed within a Ruby class.
+- To access an instance variable outside of a Ruby class, we must define methods.
+- `attr_reader`, `attr_writer`, and `attr_accessor` are convenient shorthands for writing
+  getter and setter methods.

@@ -1,14 +1,15 @@
 ---
 title: Transitioning from a large company to a 25 person startup
 description: An engineer’s observations on people, process, and purpose
-date: '2019-11-14'
+date: "2019-11-14"
 tags: career, reflection
 ---
 
 ## An engineer’s observations on people, process, and purpose
 
 [Originally posted on Medium](https://medium.com/@kate_h/transitioning-from-a-large-company-to-a-25-person-startup-e59ea13cecb)
-* * * * *
+
+---
 
 Between any two companies, there are always going to be differences.
 However, those who move from a big corporation to a startup (or vice
@@ -18,7 +19,7 @@ engineering at a very large company (think hundreds of thousands of
 employees) — to engineering at Informed K12 — a twenty-five person
 startup focused on solving operational challenges at school districts. A
 handful of my coworkers at Informed K12 have asked me, “What’s different
-about working here?” My response has been, “*Everything.*”
+about working here?” My response has been, “_Everything._”
 
 Noting that my experiences and insights are unique to myself and
 Informed K12, here’s what popped out to me as feeling different.
@@ -58,7 +59,7 @@ are our other team members. It’s absolutely vital that we communicate
 and work together with others to ensure the problem reaches a
 resolution. There are ongoing conversations between customer success
 managers, support, and engineers on slack channels like,
-\`*ask\_an\_engineer\`*. By having an awareness of the pain points that
+\`_ask_an_engineer\`_. By having an awareness of the pain points that
 our co-workers face in their day-to-day, we are able to build internal
 tools that would alleviate their workload — without any empathy,
 awareness, or cross-team communications, it would never cross our minds
@@ -74,7 +75,7 @@ bigger picture, which leads me to my next point.
 
 ### I understand what I’m working for.
 
-This is something that *should* be a given, but often is not. A large
+This is something that _should_ be a given, but often is not. A large
 company may have their fingers in multiple arenas of the market, making
 the overarching mission broad and ambiguous. By contrast, startups will
 tend to have a single focus, and attract people who are committed to a
@@ -93,7 +94,7 @@ In my first few weeks, aside from traditional engineering onboarding
 related to environment setup and team coding practices, I went through a
 company-level onboarding which sought to give every new Informed K12
 employee a base foundational understanding. In one session called
-*School District 101*, I had the chance to learn about how school
+_School District 101_, I had the chance to learn about how school
 districts are organized, what the day-to-day of a school district
 administrator might look like, and the various challenges they face. In
 *History of Informed K12,*I had the chance to sit down with the two
@@ -192,4 +193,3 @@ startup, but four months in, I can confidently say that moving to
 Informed K12 has been one of the best career decisions I have made. I
 feel challenged in a positive way, and most important to me, I find
 meaning in the work I do. I am excited to keep learning and growing.
-

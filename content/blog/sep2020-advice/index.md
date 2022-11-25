@@ -1,23 +1,23 @@
 ---
 title: Advice to my past self and anyone experiencing self-doubt early in their career
 description: Reflecting on two years as a software engineer
-date: '2020-09-13'
+date: "2020-09-13"
 tags: career, reflection
 ---
 
 [Originally posted on DEV](https://dev.to/kateh/advice-to-my-past-self-and-anyone-starting-their-career-1fmd)
 
-*"Everyone else knows so much more than I do."*
+_"Everyone else knows so much more than I do."_
 
-*"What value do I bring to the team?"*
+_"What value do I bring to the team?"_
 
-*"Am I enough?"*
+_"Am I enough?"_
 
-*"Do I belong?"*
+_"Do I belong?"_
 
-*******
+---
 
-These are all thoughts that have pervaded my mind at one point or another. These feelings of doubt, of not knowing enough, of being an *imposter*, are extremely prevalent amongst those starting out in tech— especially amongst those who are underrepresented or come from non-traditional backgrounds.
+These are all thoughts that have pervaded my mind at one point or another. These feelings of doubt, of not knowing enough, of being an _imposter_, are extremely prevalent amongst those starting out in tech— especially amongst those who are underrepresented or come from non-traditional backgrounds.
 
 Personally, I minored in computer science, but even throughout my computer science courses, I've had a creeping feeling that I didn't quite belong or "fit the mold" of a software engineer, whatever that meant!
 
@@ -27,7 +27,7 @@ If I could go back in time, here are some things I would have told myself two ye
 
 ## You belong.
 
-You may have a preconceived notion of what a software engineer looks like. You may feel like you don't belong in tech because you're *xyz*. Let go of those notions. The field of software engineering is beyond what you've see portrayed on media or the confines of your classroom.
+You may have a preconceived notion of what a software engineer looks like. You may feel like you don't belong in tech because you're _xyz_. Let go of those notions. The field of software engineering is beyond what you've see portrayed on media or the confines of your classroom.
 
 There's no doubt that the field of tech, and software engineering in particular, is lacking in diversity. But that is in no way any indication of how the field should be.
 
@@ -39,13 +39,13 @@ As you start your new role, you may be flabbergasted by how much you don't know.
 
 But the truth is, this feeling you have of not knowing anything is extremely normal when you're starting out. You're never going to know everything and you're **definitely** going to make a lot of mistakes. In fact, you'll realize that everyone makes mistakes. No one knows everything — not even the most senior member of your team. Learning to deal with ambiguity is a huge part of software engineering.
 
-At the very least, as you become more familiar with the codebase and technologies you're using, that feeling of "Ah! I don't know understand anything!" will go away. You will start to develop your own opinions and thoughts around what's good and what's not.  Discussions around the codebase that didn't make sense to you in the beginning will start to click. You will find your voice.
+At the very least, as you become more familiar with the codebase and technologies you're using, that feeling of "Ah! I don't know understand anything!" will go away. You will start to develop your own opinions and thoughts around what's good and what's not. Discussions around the codebase that didn't make sense to you in the beginning will start to click. You will find your voice.
 
 ## Keep expanding your world outside of what you see at work.
 
 Production-level software development is an entirely different beast from personal or class projects. When you're new, you may work hard to "catch up". Learning a new technology working in a new team, and making sense of an entirely new codebase can be mentally exhausting. You may pass out after work and not want to go anywhere near a computer screen. You might feel guilty and think,
 
-*"Am I doing enough? Should I be coding outside of work?"*
+_"Am I doing enough? Should I be coding outside of work?"_
 
 That answer is going to vary from person to person. Just remember that there are various ways to learn, grow, and expand your knowledge within software engineering beyond online tutorials and books. This is something I wish I had known sooner.
 
@@ -65,10 +65,10 @@ If something doesn't quite feel right about work, take note of it but don't frea
 
 ## To wrap it up
 
-* You belong.
-* No one expects you to know everything
-* Keep expanding your world outside of what you see at work.
-* What you want from your work may change, and thats completely okay.
+- You belong.
+- No one expects you to know everything
+- Keep expanding your world outside of what you see at work.
+- What you want from your work may change, and thats completely okay.
 
 There can be a lot of ambiguity and self-doubting as you navigate a new codebase, technology, and team. Understand that these feelings of self-doubt you experience are normal, and may gradually fade away. Continue learningand trust that you're growing. :-)
 

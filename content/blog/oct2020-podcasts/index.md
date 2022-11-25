@@ -1,21 +1,22 @@
 ---
 title: Podcasts are GAMECHANGING for learning! 🗣💻🎧
 description: Listening to podcasts have expanded my world of software engineering in a strange way.
-date: '2020-10-19'
+date: "2020-10-19"
 tags: career, other
 ---
+
 [Originally posted on DEV](https://dev.to/kateh/why-i-love-podcasts-4a4d)
 
 Discuss:
 
-* Do you have any favorite tech or software engineering related podcasts?
-* What do you like about it?
+- Do you have any favorite tech or software engineering related podcasts?
+- What do you like about it?
 
 ## I absolutely LOVE podcasts.
 
 I find myself listening to podcasts whenever I’m grocery shopping, walking, running, or even folding laundry. Unlike books or videos, podcasts offer the convenience of being listened to on-the-go.
 
-*****
+---
 
 Despite listening to podcasts for years, I actually never listened to tech or software engineering related podcasts.
 
@@ -34,42 +35,42 @@ Outside of serving as a great learning resource, I appreciate that some podcasts
 ### 1. [Soft Skills Engineering](https://softskills.audio/)
 
 Their tagline is:
-*"It takes more than great code to be a great engineer."*
+_"It takes more than great code to be a great engineer."_
 
 The soft skills side of engineering isn't something that's actively taught in school or bootcamps, but it's actually pretty important! The show covers topics like pay raises, getting promoted, 1 on 1's with managers, which are all pretty universal topics that are important. To give a general sense, some episode titles include:
 
-* Declining job offers and being the outside hire
-* Stuck on the ladder and can't say no
-* Unpaid team lead and banking hours
-* One-on-ones and inter-team power struggles
+- Declining job offers and being the outside hire
+- Stuck on the ladder and can't say no
+- Unpaid team lead and banking hours
+- One-on-ones and inter-team power struggles
 
 As a plus, the hosts are pretty entertaining and it can be a light-hearted listen.
 
 ###2. [CodeNewbie](https://www.codenewbie.org/)
 
 Their tagline is:
-*“The most supportive community of programmers and people learning to code”*
+_“The most supportive community of programmers and people learning to code”_
 
-Though the name of this show is, “Code Newbie”, you don’t  have to be a newbie to enjoy this show! What I really appreciate about this show is the diverse range of guests and topics. Each episode features a different guest who is pretty passionate about a certain topic. This in turn gets me interested in something new I might not have known much about before. To give a general sense, some episode titles include:
+Though the name of this show is, “Code Newbie”, you don’t have to be a newbie to enjoy this show! What I really appreciate about this show is the diverse range of guests and topics. Each episode features a different guest who is pretty passionate about a certain topic. This in turn gets me interested in something new I might not have known much about before. To give a general sense, some episode titles include:
 
-* Why you shouldn’t forget about CSS
-* Why you should consider learning Ruby
-* How to not get bogged down in technical debt
-* What does ageism in tech look like?
+- Why you shouldn’t forget about CSS
+- Why you should consider learning Ruby
+- How to not get bogged down in technical debt
+- What does ageism in tech look like?
 
 I also like how their guests share their story about how they came to code.
 
 ###3. [Programming Throwdown](https://www.programmingthrowdown.com/)
 
 Their description says:
-*"Programming Throwdown attempt to educate Computer Scientists and Software Engineers on a cavalcade of programming and tech topics."*
+_"Programming Throwdown attempt to educate Computer Scientists and Software Engineers on a cavalcade of programming and tech topics."_
 
 I really love this show for getting a high-level introduction into various topics of software engineering I might not be very familiar with. The episodes are a little over an hour long but I think the hosts do a great job of making their content digestible and interesting to follow. To give a general sense, some episode titles include:
 
-* Working from Home
-* DevOps and Site Reliability
-* Terminal and Shells
-* Teaching Kids to Code
+- Working from Home
+- DevOps and Site Reliability
+- Terminal and Shells
+- Teaching Kids to Code
 
 A lot of their older episodes are focused on a specific programming language like Javascript, Ruby, Go, C++, Java.
 

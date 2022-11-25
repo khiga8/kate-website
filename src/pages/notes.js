@@ -1,12 +1,12 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Notes from "../components/notes"
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Notes from "../components/notes";
 
 const NotesIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const notes = data.allMarkdownRemark.edges
+  const siteTitle = data.site.siteMetadata.title;
+  const notes = data.allMarkdownRemark.edges;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -14,10 +14,10 @@ const NotesIndex = ({ data, location }) => {
       <h1> Notes </h1>
       <Notes notes={notes} />
     </Layout>
-  )
-}
+  );
+};
 
-export default NotesIndex
+export default NotesIndex;
 
 export const notesQuery = graphql`
   query {
@@ -28,8 +28,8 @@ export const notesQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: {fileAbsolutePath: {regex: "/(notes)/"}}
-      ) {
+      filter: { fileAbsolutePath: { regex: "/(notes)/" } }
+    ) {
       edges {
         node {
           excerpt
@@ -47,4 +47,4 @@ export const notesQuery = graphql`
       }
     }
   }
-`
+`;

@@ -1,16 +1,16 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Tags from "../components/tags"
-import Bio from "../components/bio"
+import React from "react";
+import { graphql } from "gatsby";
+import Tags from "../components/tags";
+import Bio from "../components/bio";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { rhythm, scale } from "../utils/typography";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const tags = post.frontmatter.tags
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const tags = post.frontmatter.tags;
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -80,10 +80,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav> */}
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -104,4 +104,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

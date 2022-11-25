@@ -1,13 +1,14 @@
 ---
 title: Cultivating Diversity and Inclusion in Tech
 description: I attended a panel hosted by Women4Good
-date: '2019-05-23'
+date: "2019-05-23"
 image: panel.png
 tags: other
 ---
 
 ## I attended a panel on Diversity and Inclusion hosted by Women4Good.
-* * * * *
+
+---
 
 On May 23rd, I attended a panel on cultivating diversity and inclusion in tech. This event was hosted by [**Women4Good,**](http://www.women4good.com/) a San Francisco-based group that hosts volunteer and speaker events focused on social impact. The women who attend their events come from various backgrounds (nonprofit/startup/corporations), and are all interested in making a social impact. I attended Women4Good's previous panel featuring women founders and leaders in the social-impact sector. I found that panel to be extremely informative and inspiring, and knew I had to attend this one.
 

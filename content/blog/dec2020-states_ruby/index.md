@@ -1,17 +1,17 @@
 ---
 title: Understanding blank?, present?, empty?, any?, and nil? in Ruby
-date: '2020-12-26'
+date: "2020-12-26"
 tags: ruby, ruby-on-rails
 ---
 
 In Ruby on Rails, there are several methods available for checking the state of an object.
 The most common ones include:
 
-* `blank?`
-* `present?`
-* `empty?`
-* `any?`
-* `nil?`
+- `blank?`
+- `present?`
+- `empty?`
+- `any?`
+- `nil?`
 
 It can be pretty confusing to know which method to use and when. For instance, `blank?` and `empty?` sound like they would behave the same way. However, they are NOT the same.
 
@@ -37,6 +37,7 @@ Let's dive in.
 [docs][1]
 
 Examples:
+
 ```ruby
 [].blank?
 => true
@@ -57,7 +58,6 @@ nil.blank?
 => true
 ```
 
-
 ## 2. `present?`
 
 `present?` is another Rails method that is defined at the `Object` class level. It behaves the opposite of `blank?`. In other words, it returns true for objects that are **true, not empty, and not a whitespace string.**
@@ -65,6 +65,7 @@ nil.blank?
 [docs][2]
 
 Examples:
+
 ```ruby
 [1, 2, 3].present?
 => true
@@ -87,9 +88,8 @@ nil.present?
 
 ## Note 📝
 
-* `blank?` and `present?` are direct opposites.
-* `blank?` and `present?` can be called on any object type including `nil`. This **may be too all-encompassing and undesirable** in some cases. For example, say you expect your data to never be `nil`. If your data ends up as `nil` due to some bug in your codepath, these two state-checking methods will make it harder to uncover that fact as opposed to methods like `any?` or `empty?` which would throw a `NoMethodError` for `nil`. Keep in mind that for stricter type-checking purposes, `blank?` and `present?` may be unsuitable.
-
+- `blank?` and `present?` are direct opposites.
+- `blank?` and `present?` can be called on any object type including `nil`. This **may be too all-encompassing and undesirable** in some cases. For example, say you expect your data to never be `nil`. If your data ends up as `nil` due to some bug in your codepath, these two state-checking methods will make it harder to uncover that fact as opposed to methods like `any?` or `empty?` which would throw a `NoMethodError` for `nil`. Keep in mind that for stricter type-checking purposes, `blank?` and `present?` may be unsuitable.
 
 ## 3. `nil?`
 
@@ -98,6 +98,7 @@ nil.present?
 [docs][3]
 
 Examples:
+
 ```ruby
 [].nil?
 => false
@@ -125,11 +126,11 @@ and will evaluate to true if the length of the object it is called on is 0.
 
 In particular:
 
-* For strings, `empty?` evaluates to true if the string has a length of zero. [docs - String][4]
+- For strings, `empty?` evaluates to true if the string has a length of zero. [docs - String][4]
 
-* For hashes, `empty?` **returns true if the hash contains no key-value pairs. [docs - Hash][5]
+- For hashes, `empty?` \*\*returns true if the hash contains no key-value pairs. [docs - Hash][5]
 
-* For arrays, `empty?` returns true if the array contains no elements. [docs - Array][6]
+- For arrays, `empty?` returns true if the array contains no elements. [docs - Array][6]
 
 Examples:
 
@@ -152,7 +153,7 @@ nil.empty?
 
 ## Note 📝
 
-* `blank?` and `empty?` respond differently to strings containing whitespace characters.
+- `blank?` and `empty?` respond differently to strings containing whitespace characters.
 
 ```ruby
 " ".length
@@ -169,6 +170,7 @@ nil.empty?
 `blank?` may be more suitable for rejecting data with whitespace characters.
 
 ## 5. `any?`
+
 [docs][7]
 
 `any?` is a Ruby method defined for the `Enumerable` module, which encompass collection
@@ -176,6 +178,7 @@ classes including `Array` and `Hash`. It **returns true if at least one of the c
 member is not false or nil.**
 
 Examples:
+
 ```ruby
 [false].any?
 => false
@@ -201,6 +204,7 @@ It's also worth calling out that truthiness of the elements within the collectio
 the other methods discussed here.
 
 Consider the following:
+
 ```ruby
 
 [false, nil].any?
@@ -214,9 +218,11 @@ Consider the following:
 ```
 
 ### Additionally,
+
 `any?` can accept a block. Each element of the collection gets passed to the block, and the method will evaluate to true if the block ever returns a value that is not false or nil.
 
 Examples:
+
 ```ruby
 [1, 2, 3].any? { |number| number.even? }
 => true
@@ -230,21 +236,18 @@ Examples:
 
 ## Conclusion
 
-
-
-|             |`blank?` | `present?` | `nil?` | `empty?` | `any?`
-|-------------|-------|--------|-------|------|-----
-|    | Rails | Rails | Ruby | Ruby | Ruby|
-||[Object][1]| [Object][2] | [Object][3] | [String][4] <br> [Hash][5] <br> [Array][6] | [Enumerable][7]
-|`[]`| true | false | false | true | false
-|`{}`| true | false | false | true | false
-|`nil`| true | false | true | NoMethodError | NoMethodError
-|`false`| true | false | false | NoMethodError | NoMethodError
-|`""`| true | false | false | true | NoMethodError
-|`"   "`| true | false | false | false | NoMethodError
-|`"poop"` | false | true | false | false | NoMethodError
-|`[false]`| false | true | false | false | false
-
+|           | `blank?`    | `present?`  | `nil?`      | `empty?`                                   | `any?`          |
+| --------- | ----------- | ----------- | ----------- | ------------------------------------------ | --------------- |
+|           | Rails       | Rails       | Ruby        | Ruby                                       | Ruby            |
+|           | [Object][1] | [Object][2] | [Object][3] | [String][4] <br> [Hash][5] <br> [Array][6] | [Enumerable][7] |
+| `[]`      | true        | false       | false       | true                                       | false           |
+| `{}`      | true        | false       | false       | true                                       | false           |
+| `nil`     | true        | false       | true        | NoMethodError                              | NoMethodError   |
+| `false`   | true        | false       | false       | NoMethodError                              | NoMethodError   |
+| `""`      | true        | false       | false       | true                                       | NoMethodError   |
+| `" "`     | true        | false       | false       | false                                      | NoMethodError   |
+| `"poop"`  | false       | true        | false       | false                                      | NoMethodError   |
+| `[false]` | false       | true        | false       | false                                      | false           |
 
 [1]: https://apidock.com/rails/v4.2.7/Object/blank%3F
 [2]: https://apidock.com/rails/Object/present%3f
@@ -254,7 +257,7 @@ Examples:
 [6]: https://apidock.com/ruby/Array/empty%3F
 [7]: https://apidock.com/ruby/Enumerable/any%3F
 
-
 References:
-* [How to understand nil vs. empty vs. blank in Ruby](https://stackoverflow.com/questions/885414/how-to-understand-nil-vs-empty-vs-blank-in-ruby)
-* [Differences Between #nil?, #empty?, #blank?, and #present?](https://blog.appsignal.com/2018/09/11/differences-between-nil-empty-blank-and-present.html)
+
+- [How to understand nil vs. empty vs. blank in Ruby](https://stackoverflow.com/questions/885414/how-to-understand-nil-vs-empty-vs-blank-in-ruby)
+- [Differences Between #nil?, #empty?, #blank?, and #present?](https://blog.appsignal.com/2018/09/11/differences-between-nil-empty-blank-and-present.html)
