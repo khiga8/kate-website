@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Tags from "../components/tags"
 import Bio from "../components/bio"
 
@@ -10,7 +10,6 @@ import { rhythm, scale } from "../utils/typography"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
   const tags = post.frontmatter.tags
   return (
     <Layout location={location} title={siteTitle}>
