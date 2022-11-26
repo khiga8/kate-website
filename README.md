@@ -1,5 +1,3 @@
-<h1 align="center">
-  katehiga.com
-</h1>
+# katehiga.com
 
 khiga8's personal website
