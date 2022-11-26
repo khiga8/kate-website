@@ -14,7 +14,7 @@ Recently, I decided to deep-dive into best web accessibility practices. I've dis
 
 Here are some that I've found extremely helpful in aiding my learning!
 
-### Articles & Blog posts 📑:
+## Articles & Blog posts 📑:
 
 - [Intro to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 
@@ -23,12 +23,12 @@ Two from [Max Antonucci](https://dev.to/maxwell_dev) on DEV. I HIGHLY recommend 
 - [The Web Accessibility Introduction I wish I had](https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope)
 - [Comebacks for Five (Wrong) Arguments Against Accessibility](https://dev.to/maxwell_dev/comebacks-for-five-wrong-arguments-against-accessibility-5g5j)
 
-### Neat Videos 📹:
+## Neat Videos 📹:
 
 - [A11y cast series on Google Chrome developers channel](https://www.youtube.com/watch?v=HtTyRajRuyY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) - Short, easy to digest videos around different web accessibility practices.
 - [How Blind People Use Computers](https://www.youtube.com/watch?v=rsglR8Y26jU) - A blind person demos how he navigates Reddit using a screen reader. Extremely insightful since if you aren't familiar with screen readers.
 
-### Podcasts 🎧:
+## Podcasts 🎧:
 
 - [Throughline Episode: ADA Now!](https://www.npr.org/2020/07/27/895896462/a-d-a-now) - Not specific to the web but extremely valuable. Discusses history of A.D.A, how disability has come to be seen as a civil rights issue.
 
@@ -45,7 +45,7 @@ Two from [Max Antonucci](https://dev.to/maxwell_dev) on DEV. I HIGHLY recommend 
 
 If you know of any other websites known to do accessibility well, let me know!
 
-### Accessibility Tooling
+## Accessibility Tooling
 
 - [Google Lighthouse Test](https://developers.google.com/web/tools/lighthouse): if you use Google chrome, this should be available in your Developer tools tab. You can run this on any web page and generate a report on accessibility which tells you what can be improved.
 - [Axe Chrome Extension](https://www.deque.com/axe/): Somewhat similar to Lighthouse, but more light-weight.

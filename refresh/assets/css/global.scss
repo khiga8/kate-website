@@ -26,7 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1em;
+  line-height: 1.2em;
   color: #404040;
   font-weight: 900;
 }
@@ -36,8 +36,21 @@ hr {
   margin-bottom: $spacing-unit;
 }
 
-.site-nav, .site-footer {
-  padding: 2.415rem 0;
+img {
+  max-width: 500px;
+  height: auto;
+}
+.site-nav {
+  padding: 2.5rem 0;
+}
+
+.site-footer {
+  padding: 2rem 0;
+}
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
 }
 
 /**
@@ -67,14 +80,14 @@ hr {
   clear: both;
 }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
- h1, h2, h3, h4, h5, h6,
- p, blockquote, pre,
- ul, ol, dl, figure {
-  margin-bottom: $spacing-unit / 2;
- }
+// /**
+//  * Set `margin-bottom` to maintain vertical rhythm
+//  */
+//  h1, h2, h3, h4, h5, h6,
+//  p, blockquote, pre,
+//  ul, ol, dl, figure {
+//   margin-bottom: 2rem;
+//  }
  
  /**
  * Lists
@@ -90,7 +103,7 @@ li {
   }
 }
 
-.post-meta {
+.post-meta, .copyright {
   font-size: 0.85rem;
 }
 
@@ -127,7 +140,7 @@ a {
  * Blockquotes
  */
  blockquote {
-  border-left: 4px solid grey;
+  border-left: 4px solid black;
   padding-left: $spacing-unit / 2;
   font-style: italic;
 
@@ -150,7 +163,8 @@ a {
 }
 
 .posts {
-  p {
-    margin-block-end: 1.3rem;
+  p, blockquote, ul, pre, h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
   }
 }
+

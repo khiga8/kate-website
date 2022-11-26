@@ -2,7 +2,10 @@ title: Kate Higa
 description: >-
   Kate Higa's website
 markdown: kramdown
-
+social_links:
+  - { platform: GitHub,         user_url: "https://github.com/khiga8" }
+  - { platform: Dev.to,          user_url: "https://dev.to/kateh" }
+  - { platform: Twitter,        user_url: "https://twitter.com/kate8keito" }
 kramdown:
   input: GFM
   auto_ids: true
