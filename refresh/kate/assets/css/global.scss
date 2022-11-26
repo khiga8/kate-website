@@ -2,8 +2,7 @@
 ---
 
 @import "_vars";
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;900&display=swap');
 
 /**
  * Reset some basic elements
@@ -13,24 +12,23 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-
 }
 
 body {
- font-family: 'Roboto', sans-serif;
- display: flex;
- min-height: 100vh;
- flex-direction: column;
- overflow-wrap: break-word;
- line-height: 1.5em;
- color: #3a3a3a;
- font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  line-height: 1.5em;
+  color: #3a3a3a;
+  font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   color: #404040;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 hr {
@@ -96,6 +94,9 @@ li {
   font-size: 0.85rem;
 }
 
+/**
+ * Link styling
+ */
 a {
     color: #763d77;;
     text-shadow: none;
@@ -148,6 +149,8 @@ a {
   padding: 0.25rem;
 }
 
-p {
-  margin-block-end: 1.3rem;
+.posts {
+  p {
+    margin-block-end: 1.3rem;
+  }
 }

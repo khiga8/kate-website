@@ -1,0 +1,9 @@
+{
+  "name": "kate-website",
+  "devDependencies": {
+    "prettier": "2.8.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{html, scss, css}\""
+  }
+}
