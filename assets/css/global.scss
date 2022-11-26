@@ -1,0 +1,220 @@
+---
+---
+
+@import "_vars";
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;900&display=swap");
+
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  line-height: 1.5em;
+  color: #3a3a3a;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  color: #404040;
+  font-weight: 900;
+}
+
+hr {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+.site-nav {
+  padding: 2.5rem 0;
+}
+
+.site-footer {
+  padding: 2rem 0;
+}
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  max-width: 20rem;
+  justify-content: space-between;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// /**
+//  * Set `margin-bottom` to maintain vertical rhythm
+//  */
+//  h1, h2, h3, h4, h5, h6,
+//  p, blockquote, pre,
+//  ul, ol, dl, figure {
+//   margin-bottom: 2rem;
+//  }
+
+/**
+ * Lists
+ */
+ul,
+ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+.post-meta,
+.copyright {
+  font-size: 0.85rem;
+}
+
+/**
+ * Link styling
+ */
+a {
+  color: #763d77;
+  text-shadow: none;
+  background-image: none;
+  text-decoration: underline #851887;
+
+  &:hover,
+  &:focus {
+    color: #851887;
+    text-decoration: none;
+  }
+}
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid #94658c;
+  border-bottom: 1px solid #94658c;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  border-left: 4px solid black;
+  padding-left: $spacing-unit / 2;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  i,
+  em {
+    font-style: normal;
+  }
+}
+
+// /**
+//  * Code formatting
+//  */
+.language-plaintext {
+  border-radius: 3px;
+  background-color: #f2f1f1;
+  padding: 0.25rem;
+}
+
+pre,
+code {
+  overflow: auto;
+}
+
+p,
+blockquote,
+ul,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
+}
+
+.post-list {
+  li {
+    p {
+      margin-top: 0;
+    }
+  }
+}
+// .posts {
+//   p, blockquote, ul, pre, h1, h2, h3, h4, h5, h6 {
+//     margin-top: 1.5rem;
+//   }
+// }

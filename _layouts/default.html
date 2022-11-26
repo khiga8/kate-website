@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {% if page.title == "Home" %}
+    <title>Home - {{ site.title }}</title>
+    {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link href="/assets/css/syntax.css" rel="stylesheet" />
+  </head>
+  <body>
+    {%- include header.html -%}
+    <main>
+      <div class="wrapper">{{ content }}</div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>
