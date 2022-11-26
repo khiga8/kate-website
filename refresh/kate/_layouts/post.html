@@ -3,6 +3,8 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h2>
-<section>
+{%- assign date_format = site.minima.date_format | default: "%Y-%-m-%-d" -%}
+<p class="post-meta">Posted on: {{ page.date | date: date_format }}</p>
+<section class="post">
     {{ content }}
 </section>
