@@ -2,20 +2,33 @@
 ---
 
 @import "_vars";
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;900&display=swap");
 
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -25,7 +38,12 @@ body {
   font-size: 1.2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
   color: #404040;
   font-weight: 900;
@@ -61,7 +79,7 @@ img {
 /**
  * Wrapper
  */
- .wrapper {
+.wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
@@ -79,7 +97,7 @@ img {
 /**
  * Clearfix
  */
- %clearfix:after {
+%clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -93,11 +111,12 @@ img {
 //  ul, ol, dl, figure {
 //   margin-bottom: 2rem;
 //  }
- 
- /**
+
+/**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
@@ -108,7 +127,8 @@ li {
   }
 }
 
-.post-meta, .copyright {
+.post-meta,
+.copyright {
   font-size: 0.85rem;
 }
 
@@ -116,22 +136,23 @@ li {
  * Link styling
  */
 a {
-    color: #763d77;;
-    text-shadow: none;
-    background-image: none;
-    text-decoration: underline #851887;;
+  color: #763d77;
+  text-shadow: none;
+  background-image: none;
+  text-decoration: underline #851887;
 
-    &:hover,&:focus {
-      color: #851887;
-      font-weight: bold; 
-      // text-decoration: none;
-    }
+  &:hover,
+  &:focus {
+    color: #851887;
+    font-weight: bold;
+    // text-decoration: none;
+  }
 }
 
 /**
  * Site header
  */
- .site-header {
+.site-header {
   border-top: 5px solid #94658c;
   border-bottom: 1px solid #94658c;
   min-height: $spacing-unit * 1.865;
@@ -141,11 +162,10 @@ a {
   position: relative;
 }
 
-
 /**
  * Blockquotes
  */
- blockquote {
+blockquote {
   border-left: 4px solid black;
   padding-left: $spacing-unit / 2;
   font-style: italic;
@@ -154,7 +174,8 @@ a {
     margin-bottom: 0;
   }
 
-  i, em {
+  i,
+  em {
     font-style: normal;
   }
 }
@@ -168,11 +189,21 @@ a {
   padding: 0.25rem;
 }
 
-pre, code {
+pre,
+code {
   overflow: auto;
 }
 
-p, blockquote, ul, pre, h1, h2, h3, h4, h5, h6 {
+p,
+blockquote,
+ul,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1.5rem;
 }
 
@@ -188,4 +219,3 @@ p, blockquote, ul, pre, h1, h2, h3, h4, h5, h6 {
 //     margin-top: 1.5rem;
 //   }
 // }
-
