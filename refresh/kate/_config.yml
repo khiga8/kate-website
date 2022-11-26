@@ -1,8 +1,13 @@
-title: Kate Higa
+title: Home
 description: >-
   Kate Higa's website
-twitter_username: kate8keito
-github_username:  khiga8
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

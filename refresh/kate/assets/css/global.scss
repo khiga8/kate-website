@@ -2,10 +2,8 @@
 ---
 
 @import "_vars";
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
 
-html {
-  font-size: $base-font-size;
-}
 
 /**
  * Reset some basic elements
@@ -19,7 +17,7 @@ dl, dd, ol, ul, figure {
 }
 
 body {
- font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
  display: flex;
  min-height: 100vh;
  flex-direction: column;
@@ -30,6 +28,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 hr {
@@ -38,7 +38,7 @@ hr {
 }
 
 .site-nav {
-  padding: 1em 0em;
+  padding: 1.5rem 0em;
 }
 
 /**
@@ -100,7 +100,7 @@ a {
   border-top: 5px solid #94658c;
   border-bottom: 1px solid #94658c;
   min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * 2.25;
 
   // Positioning context for the mobile navigation icon
   position: relative;
