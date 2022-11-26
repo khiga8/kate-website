@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
     {% if page.title == "Home" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home - {{ site.title }}</title>
     {% else %}
     <title>{{ page.title }} - {{ site.title }}</title>
