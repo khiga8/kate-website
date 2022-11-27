@@ -10,6 +10,4 @@ title: Home
 
 I am a software engineer who enjoys working at the intersection of people and technology. I currently work at GitHub as part of the Accessibility team.
 
-I have a background in Cognitive Science and am fascinated by the human mind. I am a Japanese American fluent in English and Japanese. On the weekends, I love visiting bakeries in the area, baking, and unwinding with my dog, Tagé.
-
-I like to write casually mostly as a way to reflect and retain my thoughts and learnings.
+I mostly grew up in the Bay Area, spent some time in Japan, and am now based in Brooklyn. When I'm away from my computer, I enjoy visiting bakeries in the area, crocheting, and unwinding with my dog, Tagé.
